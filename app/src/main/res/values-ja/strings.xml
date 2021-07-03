@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">フィットする</string>
+    <string name="push_ups">Push ups</string>
+
+    <string name="sleep_tracker_fragment">SleepTrackerFragment</string>
+
+
+    <string name="squats">Squats</string>
+    <string name="sit_ups">Sit ups</string>
+    <string name="plank">Plank</string>
+    <string name="start">開始</string>
+
+
+    <!-- Output to TextView styled with a little HTML -->
+    <string name="title"><![CDATA[<h3>HERE IS YOUR FIT DATA</h3>]]></string>
+    <string name="start_time"><![CDATA[<b>Start:</b>]]></string>
+    <string name="end_time"><![CDATA[<b>End:</b>]]></string>
+    <string name="quality"><![CDATA[<b>Quality:</b>]]></string>
+    <string name="hours_slept"><![CDATA[<b>Hours:Minutes:Seconds</b>]]></string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="squat">Squat</string>
+    <string name="sit_up">Sit up</string>
+    <string name="push_up">Push up</string>
+    <string name="settings_title">設定</string>
+    <string name="Language_pref">言語</string>
+    <string name="select_language">選択する</string>
+    <string name="exercise_program">運動プログラム</string>
+    <string name="test">テスト</string>
+    <string name="level_test">トレーニング計画を作成する</string>
+    <string name="history">歴史</string>
+    <string name="home">ホーム</string>
+    <string name="profile">プロフィール</string>
+    <string name="date_added_newest">追加された日付（最新）</string>
+    <string name="sort_by">並び替え</string>
+    <string name="date_added_oldest">追加された日付（最も古い）</string>
+    <string name="duration">期間</string>
+    <string name="calories">カロリー</string>
+    <string name="push_ups_free">無料練習</string>
+    <string name="sit_ups_free">無料練習</string>
+    <string name="squat_free">無料練習</string>
+    <string name="Details">詳細</string>
+    <string name="gender">性別</string>
+    <string name="done">完了</string>
+    <string name="cancel">キャンセル</string>
+    <string name="weight">重量</string>
+    <string name="height">高さ</string>
+    <string name="age">年齢</string>
+    <string name="your_level">あなたのレベル</string>
+    <string name="total_push_ups">デイリープログラム：</string>
+    <string name="total_free">無料の練習：</string>
+    <string name="total_sit_ups">デイリープログラム：</string>
+    <string name="total_squat">デイリープログラム：</string>
+    <string name="congratulation">おめでとうございます</string>
+    <string name="workout">いい結果になる</string>
+    <string name="about_you">あなたについて</string>
+    <string name="male">男性</string>
+    <string name="female">女性</string>
+    <string name="free_practice">フリープラクティス</string>
+    <string name="free_sit_ups">無料の練習：</string>
+    <string name="theme_pref">テーマ</string>
+    <string name="dark_theme">暗いテーマ</string>
+    <string name="cleared">クリアした!</string>
+    <string name="please_do">結果に基づいて毎日の運動プログラムを構築するために、1セットでできるだけ多くの押し上げ、座り、しゃがみをしてください。</string>
+    <string name="general">全般</string>
+    <string name="reminder">リマインダー</string>
+    <string name="unit">単位</string>
+    <string name="you_did_it_congratulation">おめでとう！ 今日の演習は完了しました。</string>
+    <string name="bmi">BMI</string>
+    <string name="tutorial">チュートリアル</string>
+    <string name="ok">OK</string>
+    <string name="normal_bmi">通常のBMI範囲：18.5–24.9</string>
+    <string name="underweight"><![CDATA[体重不足BMI範囲：<18.5]]></string>
+    <string name="overweight">太りすぎのBMI範囲：25–29.9</string>
+    <string name="obesity">肥満BMIの範囲：30以上</string>
+    <string name="there_is_no">ここには何もありません。</string>
+    <string name="clear_all">すべてクリア ？</string>
+    <string name="delete_all">すべてのフィットネス履歴を削除する</string>
+    <string name="info">情報</string>
+    <string name="see_how_do">クリックして運動トレーニングを表示します</string>
+    <string name="tap_here">クリックして開始</string>
+    <string name="push_ups_tutorial">腕立て伏せの回数を数えるには、図に示すようにデバイスを地面に置き、運動を開始してください。</string>
+    <string name="sit_ups_tutorial">腹筋の数を数えるには、デバイスを持ち、デバイスでエクササイズを行ってください（デバイスを水平に保持する方が良い）。</string>
+    <string name="squat_tutorial">スクワットの数を数えるには、デバイスを保持し、デバイスでエクササイズを行ってください。</string>
+    <string name="every_day">毎日</string>
+    <string name="version">Version:</string>
+    <string name="libraries">Libraries</string>
+    <string name="airbnb_lottie">Airbnb lottie</string>
+    <string name="flaticon">Flaticon</string>
+    <string name="lottiefiles">lottiefiles</string>
+    <string name="icons">Icons</string>
+    <string name="feeback">フィードバック</string>
+
+
+    <string-array name="unitValues">
+        <item name="metric">1</item>
+        <item name="imperial">2</item>
+    </string-array>
+
+    <string-array name="units">
+        <item name="metric">メートル単位（m、km）</item>
+        <item name="imperial">インペリアル単位（ft、yd、mile）</item>
+    </string-array>
+
+    <string name="later">後</string>
+    <string name="message">このアプリの使用を楽しんでいる場合は、少し時間を取って評価してください。 ご協力ありがとうございました。</string>
+    <string name="exit">出口</string>
+    <string name="no_thanks">番号！ 、ありがとう</string>
+    <string name="rate_now">今すぐ評価する</string>
+    <string name="bubbleshowcase_android">BubbleShowCase-Android</string>
+    <string name="record">Record:</string>
+    <string name="cm">cm</string>
+    <string name="feet">feet</string>
+
+
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kumuha ng Pagkasyahin</string>
+    <string name="push_ups">Push ups</string>
+
+    <string name="sleep_tracker_fragment">SleepTrackerFragment</string>
+
+
+    <string name="squats">Squats</string>
+    <string name="sit_ups">Sit ups</string>
+    <string name="plank">Plank</string>
+    <string name="start">start</string>
+
+
+    <!-- Output to TextView styled with a little HTML -->
+    <string name="title"><![CDATA[<h3>HERE IS YOUR FIT DATA</h3>]]></string>
+    <string name="start_time"><![CDATA[<b>Start:</b>]]></string>
+    <string name="end_time"><![CDATA[<b>End:</b>]]></string>
+    <string name="quality"><![CDATA[<b>Quality:</b>]]></string>
+    <string name="hours_slept"><![CDATA[<b>Hours:Minutes:Seconds</b>]]></string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="squat">Squat</string>
+    <string name="sit_up">Sit up</string>
+    <string name="push_up">Push up</string>
+    <string name="settings_title">Mga setting</string>
+    <string name="Language_pref">Wika</string>
+    <string name="select_language">Piliin</string>
+    <string name="exercise_program">Ehersisyo programa</string>
+    <string name="test">Pagsusulit</string>
+    <string name="level_test">Bumuo ng mga plano sa pag-eehersisyo</string>
+    <string name="history">Kasaysayan</string>
+    <string name="home">Bahay</string>
+    <string name="profile">Profile</string>
+    <string name="date_added_newest">Idinagdag ang petsa (pinakabago)</string>
+    <string name="sort_by">Pagsunud-sunurin ayon</string>
+    <string name="date_added_oldest">Idinagdag ang petsa (pinakaluma)</string>
+    <string name="duration">Tagal</string>
+    <string name="calories">Kaloriya</string>
+    <string name="push_ups_free">Libreng pagsasanay</string>
+    <string name="sit_ups_free">Free practice</string>
+    <string name="squat_free">Free practice</string>
+    <string name="Details">Mga Detalye</string>
+    <string name="gender">Kasarian</string>
+    <string name="done">Tapos na</string>
+    <string name="cancel">Pagkansela</string>
+    <string name="weight">Timbang</string>
+    <string name="height">Taas</string>
+    <string name="age">Edad</string>
+    <string name="your_level">Ang iyong antas</string>
+    <string name="total_push_ups">Pang-araw-araw na Programa:</string>
+    <string name="total_free">Libreng kasanayan:</string>
+    <string name="total_sit_ups">Pang-araw-araw na Programa:</string>
+    <string name="total_squat">Pang-araw-araw na Programa:</string>
+    <string name="congratulation">Pagbati</string>
+    <string name="workout">Pag-eehersisyo</string>
+    <string name="about_you">Tungkol sa iyo</string>
+    <string name="male">Lalaki</string>
+    <string name="female">Babae</string>
+    <string name="free_practice">Libreng Praktis</string>
+    <string name="free_sit_ups">Libreng Praktis</string>
+    <string name="theme_pref">Tema</string>
+    <string name="dark_theme">Madilim na tema</string>
+    <string name="cleared">Nalinis!</string>
+    <string name="please_do">Mangyaring gawin ang mas maraming pagtulak, pag-upo at pag-squatting hangga\'t maaari sa isang hanay upang makabuo ng isang pang-araw-araw na programa ng ehersisyo batay sa mga resulta.</string>
+    <string name="general">Pangkalahatan</string>
+    <string name="reminder">Paalala</string>
+    <string name="unit">Unit</string>
+    <string name="you_did_it_congratulation">Binabati kita! Nakumpleto mo na ang iyong ehersisyo ngayon.</string>
+    <string name="bmi">BMI</string>
+    <string name="tutorial">Pagtuturo</string>
+    <string name="ok">OK</string>
+    <string name="normal_bmi">Normal na saklaw ng BMI: 18.5–24.9</string>
+    <string name="underweight"><![CDATA[Saklaw ng saklaw ng BMI: <18.5]]></string>
+    <string name="overweight">Ang sobrang timbang na saklaw ng BMI: 25–29.9</string>
+    <string name="obesity">Saklaw ng Obesity BMI: 30 o mas malaki</string>
+    <string name="there_is_no">Walang makikita dito.</string>
+    <string name="clear_all">Alisin lahat ?</string>
+    <string name="delete_all">Tanggalin ang lahat ng kasaysayan ng fitness</string>
+    <string name="info">Impormasyon</string>
+    <string name="see_how_do">Mag-click upang tingnan ang pagsasanay sa ehersisyo</string>
+    <string name="tap_here">Mag-click upang magsimula</string>
+    <string name="push_ups_tutorial">Upang mabilang ang bilang ng mga push-up, mangyaring ilagay ang aparato sa lupa tulad ng ipinakita sa larawan at pagkatapos simulan ang ehersisyo.</string>
+    <string name="sit_ups_tutorial">Upang mabilang ang bilang ng mga sit-up, mangyaring hawakan ang aparato at gawin ang ehersisyo sa iyong aparato (Mas mahusay na hawakan nang pahalang ang aparato).</string>
+    <string name="squat_tutorial">Upang mabilang ang bilang ng mga squats, mangyaring hawakan ang aparato at gawin ang ehersisyo sa iyong aparato.</string>
+    <string name="every_day">Araw-araw sa</string>
+    <string name="version">Version:</string>
+    <string name="libraries">Libraries</string>
+    <string name="airbnb_lottie">Airbnb lottie</string>
+    <string name="flaticon">Flaticon</string>
+    <string name="lottiefiles">lottiefiles</string>
+    <string name="icons">Icons</string>
+    <string name="feeback">Feedback</string>
+
+
+    <string-array name="unitValues">
+        <item name="metric">1</item>
+        <item name="imperial">2</item>
+    </string-array>
+
+    <string-array name="units">
+        <item name="metric">Mga yunit ng metro (m, km)</item>
+        <item name="imperial">Mga yunit ng imperyal (ft, yd, milya)</item>
+    </string-array>
+
+    <string name="later">Mamaya</string>
+    <string name="message">Kung masiyahan ka sa paggamit ng app na ito, iisipin mo bang maglaan ng sandali upang i-rate ito? Salamat sa iyong suporta.</string>
+    <string name="exit">Lumabas</string>
+    <string name="no_thanks">Hindi! , Salamat</string>
+    <string name="rate_now">I-rate ito ngayon</string>
+    <string name="bubbleshowcase_android">BubbleShowCase-Android</string>
+    <string name="record">Record:</string>
+    <string name="cm">cm</string>
+    <string name="feet">feet</string>
+
+
+</resources>

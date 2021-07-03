@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="levelViewModel"
+            type="com.panda.app.fitapp.testLevel.LevelTestViewModel" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".testLevel.LevelTestFragment">
+
+        <TextView
+            android:id="@+id/txt_de"
+            android:padding="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_margin="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:gravity="start"
+            android:text="@string/please_do"/>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/img_check_list"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="16dp"
+            android:cropToPadding="true"
+            android:layout_marginStart="8dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_de"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="chek_list.json"
+            app:lottie_loop="true" />
+
+
+
+
+
+        <Button
+            android:id="@+id/bt_start"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="260dp"
+            android:layout_height="45dp"
+            android:text="@string/start"
+            android:textSize="21sp"
+            android:textColor="#000"
+            android:layout_margin="16dp"
+            android:onClick="@{() -> levelViewModel.onPushUps()}"
+            android:background="@drawable/start_back"/>
+
+
+        <TextView
+            android:id="@+id/level_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="34dp"
+            android:textColor="@color/back_text"
+            android:textSize="35sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.120000005"
+            tools:text="LEVEL 3"
+            android:text="@string/your_level"
+            android:visibility="gone"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/push_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="34dp"
+            android:textColor="@color/back_text"
+            android:visibility="gone"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.39"
+            android:text="@string/push_ups"/>
+
+        <TextView
+            android:id="@+id/push_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/back_text"
+            android:visibility="gone"
+            android:textSize="24sp"
+            app:layout_constraintTop_toBottomOf="@id/push_txt"
+            app:layout_constraintStart_toStartOf="@id/push_txt"
+            app:layout_constraintEnd_toEndOf="@id/push_txt"
+            tools:text="15"/>
+
+
+        <TextView
+            android:id="@+id/sit_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/back_text"
+            android:textSize="24sp"
+            android:visibility="gone"
+            android:layout_marginTop="34dp"
+            app:layout_constraintTop_toBottomOf="@id/push_val"
+            app:layout_constraintStart_toStartOf="@id/push_val"
+            app:layout_constraintEnd_toEndOf="@id/push_val"
+            android:text="@string/sit_ups"/>
+
+        <TextView
+            android:id="@+id/sit_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/back_text"
+            android:textSize="24sp"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@id/sit_txt"
+            app:layout_constraintStart_toStartOf="@id/sit_txt"
+            app:layout_constraintEnd_toEndOf="@id/sit_txt"
+            tools:text="35"/>
+
+
+        <TextView
+            android:id="@+id/squat_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/back_text"
+            android:textSize="24sp"
+            android:layout_marginTop="34dp"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@id/sit_val"
+            app:layout_constraintStart_toStartOf="@id/sit_val"
+            app:layout_constraintEnd_toEndOf="@id/sit_val"
+            android:text="@string/squats"/>
+
+        <TextView
+            android:id="@+id/squat_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/back_text"
+            android:textSize="24sp"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@id/squat_txt"
+            app:layout_constraintStart_toStartOf="@id/squat_txt"
+            app:layout_constraintEnd_toEndOf="@id/squat_txt"
+            tools:text="35"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

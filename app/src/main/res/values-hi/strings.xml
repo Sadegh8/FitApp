@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">फिट हो</string>
+    <string name="push_ups">Push ups</string>
+
+    <string name="sleep_tracker_fragment">SleepTrackerFragment</string>
+
+
+    <string name="squats">Squats</string>
+    <string name="sit_ups">Sit ups</string>
+    <string name="plank">Plank</string>
+    <string name="start">शुरू</string>
+
+
+    <!-- Output to TextView styled with a little HTML -->
+    <string name="title"><![CDATA[<h3>HERE IS YOUR FIT DATA</h3>]]></string>
+    <string name="start_time"><![CDATA[<b>Start:</b>]]></string>
+    <string name="end_time"><![CDATA[<b>End:</b>]]></string>
+    <string name="quality"><![CDATA[<b>Quality:</b>]]></string>
+    <string name="hours_slept"><![CDATA[<b>Hours:Minutes:Seconds</b>]]></string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="squat">Squat</string>
+    <string name="sit_up">Sit up</string>
+    <string name="push_up">Push up</string>
+    <string name="settings_title">समायोजन</string>
+    <string name="Language_pref">भाषा: हिन्दी</string>
+    <string name="select_language">चुनते हैं</string>
+    <string name="exercise_program">व्यायाम कार्यक्रम</string>
+    <string name="test">परीक्षा</string>
+    <string name="level_test">वर्कआउट प्लान बनाएं</string>
+    <string name="history">इतिहास</string>
+    <string name="home">घर</string>
+    <string name="profile">प्रोफ़ाइल</string>
+    <string name="date_added_newest">तिथि जोड़ी गई (नवीनतम)</string>
+    <string name="sort_by">इसके अनुसार क्रमबद्ध करें</string>
+    <string name="date_added_oldest">जोड़ा गया (सबसे पुराना)</string>
+    <string name="duration">अवधि</string>
+    <string name="calories">कैलोरी</string>
+    <string name="push_ups_free">मुक्त अभ्यास</string>
+    <string name="sit_ups_free">मुक्त अभ्यास</string>
+    <string name="squat_free">मुक्त अभ्यास</string>
+    <string name="Details">विवरण</string>
+    <string name="gender">लिंग</string>
+    <string name="done">किया हुआ</string>
+    <string name="cancel">रद्द करना</string>
+    <string name="weight">वजन</string>
+    <string name="height">ऊंचाई</string>
+    <string name="age">आयु</string>
+    <string name="your_level">आपका स्तर</string>
+    <string name="total_push_ups">दैनिक कार्यक्रम:</string>
+    <string name="total_free">मुक्त अभ्यास:</string>
+    <string name="total_sit_ups">दैनिक कार्यक्रम:</string>
+    <string name="total_squat">दैनिक कार्यक्रम:</string>
+    <string name="congratulation">बधाई</string>
+    <string name="workout">व्यायाम</string>
+    <string name="about_you">आपके बारे में</string>
+    <string name="male">पुरुष</string>
+    <string name="female">महिला</string>
+    <string name="free_practice">नि: शुल्क अभ्यास</string>
+    <string name="free_sit_ups">मुक्त अभ्यास:</string>
+    <string name="theme_pref">विषय</string>
+    <string name="dark_theme">डार्क थीम</string>
+    <string name="cleared">साफ़ किया गया!</string>
+    <string name="please_do">परिणामों के आधार पर एक दैनिक व्यायाम कार्यक्रम बनाने के लिए कृपया एक सेट में जितना संभव हो सके उतने पुश अप, सिट-अप और स्क्वाटिंग करें।</string>
+    <string name="general">सामान्य</string>
+    <string name="reminder">अनुस्मारक</string>
+    <string name="unit">इकाई</string>
+    <string name="you_did_it_congratulation">बधाई हो! आपने आज अपना अभ्यास पूरा कर लिया है।</string>
+    <string name="bmi">BMI</string>
+    <string name="tutorial">ट्यूटोरियल</string>
+    <string name="ok">ठीक</string>
+    <string name="normal_bmi">सामान्य बीएमआई रेंज: 18.5–24.9</string>
+    <string name="underweight"><![CDATA[कम वजन बीएमआई रेंज: <18.5]]></string>
+    <string name="overweight">अधिक वजन बीएमआई रेंज: 25–29.9</string>
+    <string name="obesity">मोटापा बीएमआई रेंज: 30 या उससे अधिक</string>
+    <string name="there_is_no">यहाँ देखने के लिए कुछ नही है।</string>
+    <string name="clear_all">सभी साफ करें ?</string>
+    <string name="delete_all">सभी फिटनेस इतिहास हटाएं</string>
+    <string name="info">जानकारी</string>
+    <string name="see_how_do">व्यायाम प्रशिक्षण देखने के लिए क्लिक करें</string>
+    <string name="tap_here">शुरू करने के लिए क्लिक करें</string>
+    <string name="push_ups_tutorial">पुश-अप्स की संख्या गिनने के लिए, कृपया चित्र में दिखाए अनुसार उपकरण को जमीन पर रखें और फिर व्यायाम शुरू करें।</string>
+    <string name="sit_ups_tutorial">सिट-अप्स की संख्या गिनने के लिए, कृपया डिवाइस को पकड़ें और अपने डिवाइस के साथ व्यायाम करें (डिवाइस को क्षैतिज रूप से पकड़ने के लिए बेहतर है)।</string>
+    <string name="squat_tutorial">स्क्वैट्स की संख्या गिनने के लिए, कृपया डिवाइस को पकड़ें और अपने डिवाइस के साथ व्यायाम करें।</string>
+    <string name="every_day">हर दिन</string>
+    <string name="version">Version:</string>
+    <string name="libraries">Libraries</string>
+    <string name="airbnb_lottie">Airbnb lottie</string>
+    <string name="flaticon">Flaticon</string>
+    <string name="lottiefiles">lottiefiles</string>
+    <string name="icons">Icons</string>
+    <string name="feeback">प्रतिपुष्टि</string>
+
+
+    <string-array name="unitValues">
+        <item name="metric">1</item>
+        <item name="imperial">2</item>
+    </string-array>
+
+    <string-array name="units">
+        <item name="metric">मीट्रिक इकाइयाँ (मी, किमी)</item>
+        <item name="imperial">इंपीरियल इकाइयां (फीट, yd, मील)</item>
+    </string-array>
+
+    <string name="later">बाद में</string>
+    <string name="message">यदि आप इस एप्लिकेशन का उपयोग करने का आनंद लेते हैं, तो क्या आप इसे रेट करने में एक पल का समय लेंगे? आपके समर्थन के लिए धन्यवाद।</string>
+    <string name="exit">बाहर जाएं</string>
+    <string name="no_thanks">नहीं! , धन्यवाद</string>
+    <string name="rate_now">अब दर लगाएँ</string>
+    <string name="bubbleshowcase_android">BubbleShowCase-Android</string>
+    <string name="record">Record:</string>
+    <string name="cm">cm</string>
+    <string name="feet">feet</string>
+
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#000</color>
+    <color name="colorPrimaryDark">#f45745</color>
+    <color name="colorAccent">#0575E6</color>
+    <color name="colorPrim">#ff6a00</color>
+    <color name="textColorPrimary">#fff</color>
+    <color name="darkPrimary">#fff</color>
+    <color name="darkPrimary_c">#FFFAFAFA</color>
+
+
+    <color name="nav">#000</color>
+    <color name="back_text">#121212</color>
+    <color name="back_color">#000</color>
+    <color name="back_item">#fff</color>
+    <color name="back_action">#121212</color>
+    <color name="back_nav_bt">#fff</color>
+
+</resources>

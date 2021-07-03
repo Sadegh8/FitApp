@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ficar em forma</string>
+    <string name="push_ups">Push ups</string>
+
+    <string name="sleep_tracker_fragment">SleepTrackerFragment</string>
+
+
+    <string name="squats">Squats</string>
+    <string name="sit_ups">Sit ups</string>
+    <string name="plank">Plank</string>
+    <string name="start">começar</string>
+
+
+    <!-- Output to TextView styled with a little HTML -->
+    <string name="title"><![CDATA[<h3>HERE IS YOUR FIT DATA</h3>]]></string>
+    <string name="start_time"><![CDATA[<b>Start:</b>]]></string>
+    <string name="end_time"><![CDATA[<b>End:</b>]]></string>
+    <string name="quality"><![CDATA[<b>Quality:</b>]]></string>
+    <string name="hours_slept"><![CDATA[<b>Hours:Minutes:Seconds</b>]]></string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="squat">Squat</string>
+    <string name="sit_up">Sit up</string>
+    <string name="push_up">Push up</string>
+    <string name="settings_title">Configurações</string>
+    <string name="Language_pref">Língua</string>
+    <string name="select_language">Selecione</string>
+    <string name="exercise_program">Programa de exercícios</string>
+    <string name="test">Teste</string>
+    <string name="level_test">Crie planos de treino</string>
+    <string name="history">História</string>
+    <string name="home">Casa</string>
+    <string name="profile">Perfil</string>
+    <string name="date_added_newest">Data de adição (mais recente)</string>
+    <string name="sort_by">Ordenar por</string>
+    <string name="date_added_oldest">Data de adição (mais antiga)</string>
+    <string name="duration">Duração</string>
+    <string name="calories">Calorias</string>
+    <string name="push_ups_free">Treino livre</string>
+    <string name="sit_ups_free">Treino livre</string>
+    <string name="squat_free">Treino livre</string>
+    <string name="Details">Detalhes</string>
+    <string name="gender">Gênero</string>
+    <string name="done">Feita</string>
+    <string name="cancel">Cancelar</string>
+    <string name="weight">Peso</string>
+    <string name="height">Altura</string>
+    <string name="age">Era</string>
+    <string name="your_level">Seu nível</string>
+    <string name="total_push_ups">Programa diário:</string>
+    <string name="total_free">Treino livre:</string>
+    <string name="total_sit_ups">Programa diário:</string>
+    <string name="total_squat">Programa diário:</string>
+    <string name="congratulation">Parabéns</string>
+    <string name="workout">Exercite-se</string>
+    <string name="about_you">Sobre você</string>
+    <string name="male">Masculino</string>
+    <string name="female">Fêmea</string>
+    <string name="free_practice">Treino Livre</string>
+    <string name="free_sit_ups">Treino Livre:</string>
+    <string name="theme_pref">Tema</string>
+    <string name="dark_theme">Tema escuro</string>
+    <string name="cleared">Cleared!</string>
+    <string name="please_do">Faça o máximo de flexão, sentado e agachado possível em um conjunto para criar um programa diário de exercícios com base nos resultados.</string>
+    <string name="general">Geral</string>
+    <string name="reminder">Lembrete</string>
+    <string name="unit">Unidade</string>
+    <string name="you_did_it_congratulation">Parabéns! Você concluiu seu exercício hoje.</string>
+    <string name="bmi">BMI</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="ok">Está bem</string>
+    <string name="normal_bmi">Faixa normal de IMC: 18,5 a 24,9</string>
+    <string name="underweight"><![CDATA[Faixa de IMC abaixo do peso: <18,5]]></string>
+    <string name="overweight">Faixa de IMC acima do peso: 25–29,9</string>
+    <string name="obesity">Faixa de IMC da obesidade: 30 ou maior</string>
+    <string name="there_is_no">Nada para ver aqui.</string>
+    <string name="clear_all">Limpar tudo ?</string>
+    <string name="delete_all">Excluir todo o histórico de condicionamento físico</string>
+    <string name="info">Informações</string>
+    <string name="see_how_do">Clique para iniciar</string>
+    <string name="tap_here">Clique para iniciar</string>
+    <string name="push_ups_tutorial">Para contar o número de flexões, coloque o dispositivo no chão, como mostra a figura e inicie o exercício.</string>
+    <string name="sit_ups_tutorial">Para contar o número de abdominais, segure o dispositivo e faça o exercício com ele (é melhor segurar o dispositivo horizontalmente).</string>
+    <string name="squat_tutorial">Para contar o número de agachamentos, segure o dispositivo e faça o exercício com ele.</string>
+    <string name="every_day">Todos os dias às</string>
+    <string name="version">Version:</string>
+    <string name="libraries">Libraries</string>
+    <string name="airbnb_lottie">Airbnb lottie</string>
+    <string name="flaticon">Flaticon</string>
+    <string name="lottiefiles">lottiefiles</string>
+    <string name="icons">Icons</string>
+    <string name="feeback">Comentários</string>
+
+
+    <string-array name="unitValues">
+        <item name="metric">1</item>
+        <item name="imperial">2</item>
+    </string-array>
+
+    <string-array name="units">
+        <item name="metric">Unidades métricas (m, km)</item>
+        <item name="imperial">Unidades imperiais (pés, jardas, milha)</item>
+    </string-array>
+
+    <string name="later">Mais tarde</string>
+    <string name="message">Se você gosta de usar este aplicativo, você se importaria de tomar um momento para avaliá-lo? Obrigado por seu apoio.</string>
+    <string name="exit">Saída</string>
+    <string name="no_thanks">Não! , Obrigado</string>
+    <string name="rate_now">Avalie-o agora</string>
+    <string name="bubbleshowcase_android">BubbleShowCase-Android</string>
+    <string name="record">Record:</string>
+    <string name="cm">cm</string>
+    <string name="feet">feet</string>
+
+
+</resources>

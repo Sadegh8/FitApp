@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fit olmak</string>
+    <string name="push_ups">Şınav</string>
+
+    <string name="sleep_tracker_fragment">SleepTrackerFragment</string>
+
+
+    <string name="squats">Çömelme</string>
+    <string name="sit_ups">mekik</string>
+    <string name="plank">Plank</string>
+    <string name="start">Başlat</string>
+
+
+    <!-- Output to TextView styled with a little HTML -->
+    <string name="title"><![CDATA[<h3>HERE IS YOUR FIT DATA</h3>]]></string>
+    <string name="start_time"><![CDATA[<b>Start:</b>]]></string>
+    <string name="end_time"><![CDATA[<b>End:</b>]]></string>
+    <string name="quality"><![CDATA[<b>Quality:</b>]]></string>
+    <string name="hours_slept"><![CDATA[<b>Hours:Minutes:Seconds</b>]]></string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="squat">Çömelme</string>
+    <string name="sit_up">mekik</string>
+    <string name="push_up">Şınav</string>
+    <string name="settings_title">Ayarlar</string>
+    <string name="Language_pref">Dil</string>
+    <string name="select_language">seçmek</string>
+    <string name="exercise_program">Egzersiz programı</string>
+    <string name="test">Ölçek</string>
+    <string name="level_test">Egzersiz planları oluşturun</string>
+    <string name="history">Tarih</string>
+    <string name="home">Ev</string>
+    <string name="profile">Profil</string>
+    <string name="date_added_newest">Eklenme tarihi (En yeni)</string>
+    <string name="sort_by">Göre sırala</string>
+    <string name="date_added_oldest">Eklenme tarihi (en eski)</string>
+    <string name="duration">süre</string>
+    <string name="calories">Kalori</string>
+    <string name="push_ups_free">Ücretsiz uygulama</string>
+    <string name="sit_ups_free">Ücretsiz uygulama</string>
+    <string name="squat_free">Ücretsiz uygulama</string>
+    <string name="Details">ayrıntılar</string>
+    <string name="gender">Cinsiyet</string>
+    <string name="done">Bitti</string>
+    <string name="cancel">İptal etmek</string>
+    <string name="weight">Ağırlık</string>
+    <string name="height">Yükseklik</string>
+    <string name="age">Yaş</string>
+    <string name="your_level">Senin seviyen</string>
+    <string name="total_push_ups">Günlük Program:</string>
+    <string name="total_free">Ücretsiz uygulama:</string>
+    <string name="total_sit_ups">Günlük Program:</string>
+    <string name="total_squat">Günlük Program:</string>
+    <string name="congratulation">tebrik</string>
+    <string name="workout">Egzersiz yapmak</string>
+    <string name="about_you">Senin hakkında</string>
+    <string name="male">Erkek</string>
+    <string name="female">Kadın</string>
+    <string name="free_practice">Ücretsiz Uygulama</string>
+    <string name="free_sit_ups">Ücretsiz Uygulama</string>
+    <string name="theme_pref">Tema</string>
+    <string name="dark_theme">Koyu tema</string>
+    <string name="cleared">Temizlendi!</string>
+    <string name="please_do">Sonuçlara göre günlük egzersiz programı oluşturmak için lütfen bir sette mümkün olduğunca yukarı itme, oturma ve çömelme yapın.</string>
+    <string name="general">Genel</string>
+    <string name="reminder">Hatırlatma</string>
+    <string name="unit">birim</string>
+    <string name="you_did_it_congratulation">Tebrikler! Egzersizinizi bugün tamamladınız.</string>
+    <string name="bmi">BMI</string>
+    <string name="tutorial">Eğitimi</string>
+    <string name="ok">tamam</string>
+    <string name="normal_bmi">Normal BMI aralığı: 18.5–24.9</string>
+    <string name="underweight"><![CDATA[Düşük BMI aralığı: <18.5]]></string>
+    <string name="overweight">Kilolu BMI aralığı: 25–29,9</string>
+    <string name="obesity">Obezite BMI aralığı: 30 veya daha fazla</string>
+    <string name="there_is_no">Burada görülecek bir şey yok.</string>
+    <string name="clear_all">Hepsini temizle ?</string>
+    <string name="delete_all">Tüm form koruma geçmişini sil</string>
+    <string name="info">Bilgi</string>
+    <string name="see_how_do">Egzersiz eğitimini görmek için tıklayın</string>
+    <string name="tap_here">Başlamak için tıklayın</string>
+    <string name="push_ups_tutorial">Şınav sayısını saymak için, lütfen cihazı resimde gösterildiği gibi yere yerleştirin ve egzersize başlayın.</string>
+    <string name="sit_ups_tutorial">Mekik sayısını saymak için lütfen cihazı tutun ve egzersizi cihazınızla yapın (Cihazı yatay olarak tutmak daha iyidir).</string>
+    <string name="squat_tutorial">Çömelme sayısını saymak için lütfen cihazı tutun ve egzersizi cihazınızla yapın.</string>
+    <string name="every_day">Her gün</string>
+    <string name="version">Version:</string>
+    <string name="libraries">Libraries</string>
+    <string name="airbnb_lottie">Airbnb lottie</string>
+    <string name="flaticon">Flaticon</string>
+    <string name="lottiefiles">lottiefiles</string>
+    <string name="icons">Icons</string>
+    <string name="feeback">geri bildirim</string>
+
+
+    <string-array name="unitValues">
+        <item name="metric">1</item>
+        <item name="imperial">2</item>
+    </string-array>
+
+    <string-array name="units">
+        <item name="metric">Metrik birim (m, km)</item>
+        <item name="imperial">İmparatorluk birimleri (ft, yd, mil)</item>
+    </string-array>
+
+
+    <string name="later">Sonra</string>
+    <string name="message">Bu uygulamayı kullanmaktan hoşlanıyorsanız, değerlendirmek için bir dakikanızı ayırır mısınız? Desteğin için teşekkürler.</string>
+    <string name="exit">çıkış</string>
+    <string name="no_thanks">Hayır! , Teşekkürler</string>
+    <string name="rate_now">Şimdi oyla</string>
+    <string name="bubbleshowcase_android">BubbleShowCase-Android</string>
+    <string name="record">Record:</string>
+    <string name="cm">cm</string>
+    <string name="feet">feet</string>
+
+</resources>

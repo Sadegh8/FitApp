@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <PreferenceCategory android:title="@string/Language_pref"/>
+
+
+    <ListPreference
+        android:key="language1"
+        android:title="@string/Language_pref"
+        android:defaultValue="1"
+        android:entries="@array/languages"
+        android:entryValues="@array/languagesValues" />
+
+    <PreferenceCategory android:title="@string/theme_pref"/>
+
+    <SwitchPreference
+        android:key="darkThemeVal"
+        android:onClick="onClickTheme"
+        android:title="@string/dark_theme"
+        android:defaultValue="false"
+        />
+
+    <PreferenceCategory android:title="@string/general"/>
+
+    <ListPreference
+        android:key="unit"
+        android:title="@string/unit"
+        android:defaultValue="1"
+        android:entries="@array/units"
+        android:entryValues="@array/unitValues" />
+
+
+    <SwitchPreference
+        android:key="reminder"
+        android:onClick="onClickTheme"
+        android:title="@string/reminder"
+        android:defaultValue="false"
+        />
+
+
+</PreferenceScreen>

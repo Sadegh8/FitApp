@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Готовься</string>
+    <string name="push_ups">Push ups</string>
+
+    <string name="sleep_tracker_fragment">SleepTrackerFragment</string>
+
+
+    <string name="squats">Squats</string>
+    <string name="sit_ups">Sit ups</string>
+    <string name="plank">Plank</string>
+    <string name="start">Начало</string>
+
+
+    <!-- Output to TextView styled with a little HTML -->
+    <string name="title"><![CDATA[<h3>HERE IS YOUR FIT DATA</h3>]]></string>
+    <string name="start_time"><![CDATA[<b>Start:</b>]]></string>
+    <string name="end_time"><![CDATA[<b>End:</b>]]></string>
+    <string name="quality"><![CDATA[<b>Quality:</b>]]></string>
+    <string name="hours_slept"><![CDATA[<b>Hours:Minutes:Seconds</b>]]></string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="squat">Squat</string>
+    <string name="sit_up">Sit up</string>
+    <string name="push_up">Push up</string>
+    <string name="settings_title">настройки</string>
+    <string name="Language_pref">язык</string>
+    <string name="select_language">Выбрать</string>
+    <string name="exercise_program">Программа упражнений</string>
+    <string name="test">Тестовое задание</string>
+    <string name="level_test">Построить планы тренировок</string>
+    <string name="history">история</string>
+    <string name="home">Дом</string>
+    <string name="profile">Профиль</string>
+    <string name="date_added_newest">Дата добавления (самое новое)</string>
+    <string name="sort_by">Сортировать по</string>
+    <string name="date_added_oldest">Дата добавления (самая старая)</string>
+    <string name="duration">продолжительность</string>
+    <string name="calories">Калории</string>
+    <string name="push_ups_free">Свободная практика</string>
+    <string name="sit_ups_free">Свободная практика</string>
+    <string name="squat_free">Свободная практика</string>
+    <string name="Details">Детали</string>
+    <string name="gender">Пол</string>
+    <string name="done">Выполнено</string>
+    <string name="cancel">Отмена</string>
+    <string name="weight">Вес</string>
+    <string name="height">Высота</string>
+    <string name="age">Возраст</string>
+    <string name="your_level">Ваш уровень</string>
+    <string name="total_push_ups">Дневная программа:</string>
+    <string name="total_free">Свободная практика:</string>
+    <string name="total_sit_ups">Дневная программа:</string>
+    <string name="total_squat">Дневная программа:</string>
+    <string name="congratulation">поздравление</string>
+    <string name="workout">Разрабатывать</string>
+    <string name="about_you">О вас</string>
+    <string name="male">мужчина</string>
+    <string name="female">женский</string>
+    <string name="free_practice">Свободная практика</string>
+    <string name="free_sit_ups">Свободная практика</string>
+    <string name="theme_pref">тема</string>
+    <string name="dark_theme">Темная тема</string>
+    <string name="cleared">Очищенные!</string>
+    <string name="please_do">Пожалуйста, делайте как можно больше толчков, приседаний и приседаний в одном сете, чтобы построить ежедневную программу упражнений на основе результатов.</string>
+    <string name="general">Общая</string>
+    <string name="reminder">напоминание</string>
+    <string name="unit">Единица измерения</string>
+    <string name="you_did_it_congratulation">Поздравляем! Вы завершили упражнение сегодня.</string>
+    <string name="bmi">BMI</string>
+    <string name="tutorial">Руководство</string>
+    <string name="ok">OK</string>
+    <string name="normal_bmi">Нормальный диапазон ИМТ: 18,5–24,9</string>
+    <string name="underweight"><![CDATA[Диапазон ИМТ с пониженным весом: <18,5]]></string>
+    <string name="overweight">Диапазон ИМТ с избыточным весом: 25–29,9</string>
+    <string name="obesity">Диапазон ИМТ ожирения: 30 или больше</string>
+    <string name="there_is_no">Здесь ничего нет.</string>
+    <string name="clear_all">Очистить все ?</string>
+    <string name="delete_all">Удалить всю историю фитнеса</string>
+    <string name="info">Информация</string>
+    <string name="see_how_do">Нажмите, чтобы посмотреть тренировку</string>
+    <string name="tap_here">Нажмите, чтобы начать</string>
+    <string name="push_ups_tutorial">Чтобы подсчитать количество отжиманий, поместите устройство на землю, как показано на рисунке, и затем начните упражнение.</string>
+    <string name="sit_ups_tutorial">Чтобы подсчитать количество приседаний, пожалуйста, держите устройство и выполняйте упражнение с вашим устройством (лучше держать устройство горизонтально).</string>
+    <string name="squat_tutorial">Чтобы подсчитать количество приседаний, пожалуйста, держите устройство и выполняйте упражнение с вашим устройством.</string>
+    <string name="every_day">Каждый день в</string>
+    <string name="version">Version:</string>
+    <string name="libraries">Libraries</string>
+    <string name="airbnb_lottie">Airbnb lottie</string>
+    <string name="flaticon">Flaticon</string>
+    <string name="lottiefiles">lottiefiles</string>
+    <string name="icons">Icons</string>
+    <string name="feeback">Обратная связь</string>
+
+
+    <string-array name="unitValues">
+        <item name="metric">1</item>
+        <item name="imperial">2</item>
+    </string-array>
+
+    <string-array name="units">
+        <item name="metric">Метрические единицы (м, км)</item>
+        <item name="imperial">Имперские единицы (футы, ярды, мили)</item>
+    </string-array>
+
+    <string name="later">Потом</string>
+    <string name="message">Если вам нравится использовать это приложение, не могли бы вы уделить минуту, чтобы оценить его? Спасибо за поддержку.</string>
+    <string name="exit">Выход</string>
+    <string name="no_thanks">Нет! , Благодарность</string>
+    <string name="rate_now">Оцените это сейчас</string>
+    <string name="bubbleshowcase_android">BubbleShowCase-Android</string>
+    <string name="record">Record:</string>
+    <string name="cm">cm</string>
+    <string name="feet">feet</string>
+
+
+</resources>

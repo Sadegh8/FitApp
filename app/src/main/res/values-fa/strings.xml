@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">فیت شو</string>
+    <string name="push_ups">شنا</string>
+
+    <string name="sleep_tracker_fragment">SleepTrackerFragment</string>
+
+
+    <string name="squats">اسکوات</string>
+    <string name="sit_ups">دراز نشست</string>
+    <string name="plank">Plank</string>
+    <string name="start">شروع</string>
+
+
+    <!-- Output to TextView styled with a little HTML -->
+    <string name="title"><![CDATA[<h3>HERE IS YOUR FIT DATA</h3>]]></string>
+    <string name="start_time"><![CDATA[<b>Start:</b>]]></string>
+    <string name="end_time"><![CDATA[<b>End:</b>]]></string>
+    <string name="quality"><![CDATA[<b>Quality:</b>]]></string>
+    <string name="hours_slept"><![CDATA[<b>Hours:Minutes:Seconds</b>]]></string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="squat">اسکوات</string>
+    <string name="sit_up">دراز نشست</string>
+    <string name="push_up">شنا</string>
+    <string name="settings_title">تنظیمات</string>
+    <string name="Language_pref">زبان</string>
+    <string name="select_language">انتخاب</string>
+    <string name="level_test">برنامه تمرین بسازید</string>
+    <string name="history">تاریخچه</string>
+    <string name="home">خانه</string>
+    <string name="profile">مشخصات</string>
+    <string name="exercise_program">برنامه ورزشی</string>
+    <string name="test">تست</string>
+    <string name="date_added_newest">تازیخ اضافه شدن(جدیدترین)</string>
+    <string name="sort_by">ترتیب بر اساس</string>
+    <string name="date_added_oldest">تاریخ اضافه شدن (قدیمی ترین)</string>
+    <string name="duration">مدت زمان</string>
+    <string name="calories">کالری</string>
+    <string name="push_ups_free">شنا آزاد</string>
+    <string name="sit_ups_free">دراز نشت آزاد</string>
+    <string name="squat_free">اسکوات آزاد</string>
+    <string name="Details">جزئیات</string>
+    <string name="gender">جنسیت</string>
+    <string name="done">انجام شد</string>
+    <string name="cancel">لغو</string>
+    <string name="weight">وزن</string>
+    <string name="height">قد</string>
+    <string name="age">سن</string>
+    <string name="your_level">سطح شما</string>
+    <string name="total_push_ups">مجموع شنا:</string>
+    <string name="total_free">شنا آزاد:</string>
+    <string name="total_sit_ups">مجموع داز نشست:</string>
+    <string name="total_squat">مجموع اسکوات:</string>
+    <string name="congratulation">تبریک</string>
+    <string name="workout">تمرین</string>
+    <string name="about_you">در مورد شما</string>
+    <string name="male">مذکر</string>
+    <string name="female">مونث</string>
+    <string name="free_practice">تمرین آزاد</string>
+    <string name="free_sit_ups">دراز نشت آزاد:</string>
+    <string name="theme_pref">تم</string>
+    <string name="dark_theme">تم تاریک</string>
+    <string name="cleared">حذف شد!</string>
+    <string name="please_do">لطفا هر چه قدر میتوانید شنا، دزار نشت و اسکوات انجام دهید ما براساس آن برای شما برنامه درست خواهیم کرد</string>
+    <string name="general">کلی</string>
+    <string name="reminder">یادآور</string>
+    <string name="unit">واحد</string>
+    <string name="you_did_it_congratulation">شما تمرین امروز انجام دادید آفرین!</string>
+    <string name="bmi">BMI</string>
+    <string name="tutorial">آموزش</string>
+    <string name="ok">باشه</string>
+    <string name="normal_bmi">محدوده توده بدنی نرمال: 18.5–24.9</string>
+    <string name="underweight"><![CDATA[محدوده توده بدنی لاغر:: <18.5]]></string>
+    <string name="overweight">محدوده توده بدنی اضافه وزن: 25–29.9</string>
+    <string name="obesity">محدوده توده بدنی چاق: 30 یا بیشتر</string>
+    <string name="there_is_no">تمرینی ثبت نشده. یکی اضافه کنید!</string>
+    <string name="clear_all">حذف همه؟</string>
+    <string name="delete_all">حذف تمام تاریخچه</string>
+    <string name="info">اطلاعات</string>
+    <string name="see_how_do">کلیک کنید تا آموزش انجام تمرین را مشاهده کنید.</string>
+    <string name="tap_here">برای شروع کلیک کنید</string>
+    <string name="push_ups_tutorial">برای شمارش شنا، لطفا دستگاه خود را مانند تصویر بروی زمین گذاشته و سپس شروع به تمرین کنید.</string>
+    <string name="sit_ups_tutorial">برای شمارش دراز نشست، لطفا دستگاه خود را مانند تصویر نگه داشته و سپس تمرین را شروع کنید(بهتر است دستگاه به حالت افقی قرار بگیرد)</string>
+    <string name="squat_tutorial">برای شمارش اسکوات، لطفا دستگاه را مانند شکل نگه داشته و سپس شروع به تمرین کنید.</string>
+    <string name="every_day">هر روز در ساعت</string>
+    <string name="version">نسخه:</string>
+    <string name="libraries">Libraries</string>
+    <string name="airbnb_lottie">Airbnb lottie</string>
+    <string name="flaticon">Flaticon</string>
+    <string name="lottiefiles">lottiefiles</string>
+    <string name="icons">Icons</string>
+    <string name="feeback">بازخورد</string>
+
+
+    <string name="later">بعدا</string>
+    <string name="message">اگر از استفاده از این برنامه لذت می برید ، لطفا با امتیاز 5 ستاره از ما حمایت کنید. از حمایت شما متشکرم.</string>
+    <string name="exit">خروج</string>
+    <string name="no_thanks">نه ممنون</string>
+    <string name="rate_now">الان امتیاز دهید</string>
+    <string name="bubbleshowcase_android">BubbleShowCase-Android</string>
+    <string name="record">Record:</string>
+    <string name="cm">cm</string>
+    <string name="feet">feet</string>
+
+</resources>

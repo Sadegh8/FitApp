@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">Get Fit</string>
+    <string name="push_ups">Push ups</string>
+
+    <string name="sleep_tracker_fragment">SleepTrackerFragment</string>
+
+
+    <string name="squats">Squats</string>
+    <string name="sit_ups">Sit ups</string>
+    <string name="plank">Plank</string>
+    <string name="start">start</string>
+
+
+    <!-- Output to TextView styled with a little HTML -->
+    <string name="title"><![CDATA[<h3>HERE IS YOUR FIT DATA</h3>]]></string>
+    <string name="start_time"><![CDATA[<b>Start:</b>]]></string>
+    <string name="end_time"><![CDATA[<b>End:</b>]]></string>
+    <string name="quality"><![CDATA[<b>Quality:</b>]]></string>
+    <string name="hours_slept"><![CDATA[<b>Hours:Minutes:Seconds</b>]]></string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="squat">Squat</string>
+    <string name="sit_up">Sit up</string>
+    <string name="push_up">Push up</string>
+    <string name="settings_title">Settings</string>
+    <string name="Language_pref">Language</string>
+    <string name="select_language">Select</string>
+    <string name="exercise_program">Exercise program</string>
+    <string name="test">Test</string>
+    <string name="level_test">Build workout plans</string>
+    <string name="history">History</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="date_added_newest">Date added (Newest)</string>
+    <string name="sort_by">Sort By</string>
+    <string name="date_added_oldest">Date added (oldest)</string>
+    <string name="duration">Duration</string>
+    <string name="calories">Calories</string>
+    <string name="push_ups_free">Free practice</string>
+    <string name="sit_ups_free">Free practice</string>
+    <string name="squat_free">Free practice</string>
+    <string name="Details">Details</string>
+    <string name="gender">Gender</string>
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="age">Age</string>
+    <string name="your_level">Your level</string>
+    <string name="total_push_ups">Daily Program:</string>
+    <string name="total_free">Free practice:</string>
+    <string name="total_sit_ups">Daily Program:</string>
+    <string name="total_squat">Daily Program:</string>
+    <string name="congratulation">Congratulation</string>
+    <string name="workout">Workout</string>
+    <string name="about_you">About you</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="free_practice">Free Practice</string>
+    <string name="free_sit_ups">Free practice:</string>
+    <string name="theme_pref">Theme</string>
+    <string name="dark_theme">Dark theme</string>
+    <string name="cleared">Cleared!</string>
+    <string name="please_do">Please do as much pushing up, sitting-up and squatting as possible in one set to build a daily exercise program based on the results.</string>
+    <string name="general">General</string>
+    <string name="reminder">Reminder</string>
+    <string name="unit">Unit</string>
+    <string name="you_did_it_congratulation">Congratulations! You have completed your exercise today.</string>
+    <string name="bmi">BMI</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="ok">OK</string>
+    <string name="normal_bmi">Normal BMI range: 18.5–24.9</string>
+    <string name="underweight"><![CDATA[Underweight BMI range: <18.5]]></string>
+    <string name="overweight">Overweight BMI range: 25–29.9</string>
+    <string name="obesity">Obesity BMI range: 30 or greater</string>
+    <string name="there_is_no">Nothing to see here.</string>
+    <string name="clear_all">Clear all ?</string>
+    <string name="delete_all">Delete all fitness history</string>
+    <string name="info">Info</string>
+    <string name="see_how_do">Click to view the exercise training</string>
+    <string name="tap_here">Click to start</string>
+    <string name="push_ups_tutorial">To count the number of push-ups, please place the device on the ground as shown in the picture and then begin the exercise.</string>
+    <string name="sit_ups_tutorial">To count the number of sit-ups, please hold the device and do the exercise with your device (Better to hold the device horizontally).</string>
+    <string name="squat_tutorial">To count the number of squats, please hold the device and do the exercise with your device.</string>
+    <string name="every_day">Every day at</string>
+    <string name="version">Version:</string>
+    <string name="libraries">Libraries</string>
+    <string name="airbnb_lottie">Airbnb lottie</string>
+    <string name="flaticon">Flaticon</string>
+    <string name="lottiefiles">lottiefiles</string>
+    <string name="icons">Icons</string>
+    <string name="feeback">Feedback</string>
+
+
+    <string name="later">Later</string>
+    <string name="message">If you enjoy using this app, would you mind taking a moment to rate it? Thanks for your support.</string>
+    <string name="exit">Exit</string>
+    <string name="no_thanks">No! , Thanks</string>
+    <string name="rate_now">Rate it now</string>
+    <string name="bubbleshowcase_android">BubbleShowCase-Android</string>
+    <string name="record">Record:</string>
+    <string name="cm">cm</string>
+    <string name="feet">feet</string>
+
+
+    <string-array name="languagesValues">
+        <item name="english">1</item>
+        <item name="albanian">2</item>
+        <item name="arabic">3</item>
+        <item name="filipino">4</item>
+        <item name="french">5</item>
+        <item name="german">6</item>
+        <item name="greek">7</item>
+        <item name="hindi">8</item>
+        <item name="indonesian">9</item>
+        <item name="italian">10</item>
+        <item name="japanese">11</item>
+        <item name="korean">12</item>
+        <item name="farsi">13</item>
+        <item name="portuguese">14</item>
+        <item name="russian">15</item>
+        <item name="spanish">16</item>
+        <item name="turkish">17</item>
+
+    </string-array>
+
+    <string-array name="languages">
+        <item name="english">English</item>
+        <item name="albanian">Albanian</item>
+        <item name="arabic">Arabic</item>
+        <item name="filipino">Filipino</item>
+        <item name="french">French</item>
+        <item name="german">German</item>
+        <item name="greek">Greek</item>
+        <item name="hindi">Hindi</item>
+        <item name="indonesian">Indonesian</item>
+        <item name="italian">Italian</item>
+        <item name="japanese">Japanese</item>
+        <item name="korean">Korean</item>
+        <item name="farsi">Persian</item>
+        <item name="portuguese">Portuguese</item>
+        <item name="russian">Russian</item>
+        <item name="spanish">Spanish</item>
+        <item name="turkish">Turkish</item>
+
+    </string-array>
+
+    <string-array name="unitValues">
+        <item name="metric">1</item>
+        <item name="imperial">2</item>
+    </string-array>
+
+    <string-array name="units">
+        <item name="metric">Metric units(m,km)</item>
+        <item name="imperial">Imperial units (ft, yd, mile)</item>
+    </string-array>
+
+</resources>

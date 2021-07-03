@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="back_item">#323232</color>
+    <color name="back_text">#fff</color>
+    <color name="back_nav_bt">#121212</color>
+
+    <color name="darkPrimary">#1b1b1c</color>
+
+</resources>

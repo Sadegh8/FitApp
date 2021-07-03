@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="detail"
+            type="com.panda.app.fitapp.details.DetailsViewModel" />
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".details.DetailsFragment"
+        >
+
+        <TextView
+            android:id="@+id/date_txt"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="28dp"
+            android:layout_marginStart="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fitDate="@{detail.fit}"
+            tools:text="12/14/2019"
+            android:textSize="26sp"
+            android:textColor="@color/back_text"/>
+
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraint_duration"
+            app:layout_constraintTop_toBottomOf="@id/date_txt"
+            app:layout_constraintEnd_toStartOf="@id/guideline_center"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="28dp"
+            android:layout_width="@dimen/width_item_details"
+            android:layout_height="@dimen/height_item_details"
+            android:background="@drawable/history_back"
+            android:elevation="2dp">
+
+            <ImageView
+                android:id="@+id/img_clock"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_margin="16dp"
+                android:layout_width="@dimen/width_height_img_details"
+                android:layout_height="@dimen/width_height_img_details"
+                app:srcCompat="@drawable/ic_clock"/>
+
+            <TextView
+                android:id="@+id/duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_margin="16dp"
+                tools:text="00:15:18"
+                android:textStyle="bold"
+                android:textSize="21sp"
+                android:textColor="@color/back_text"
+                app:fitDuration="@{detail.fit}"/>
+
+            <TextView
+                android:id="@+id/txt_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_margin="16dp"
+                tools:text="Duration"
+                android:text="@string/duration"
+                android:textSize="17sp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraint_calorie"
+            app:layout_constraintTop_toBottomOf="@id/date_txt"
+            app:layout_constraintStart_toEndOf="@id/guideline_center"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="28dp"
+            android:layout_width="@dimen/width_item_details"
+            android:layout_height="@dimen/height_item_details"
+            android:background="@drawable/history_back"
+            android:elevation="2dp">
+
+            <ImageView
+                android:id="@+id/img_calorie"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_margin="16dp"
+                android:layout_width="@dimen/width_height_img_details"
+                android:layout_height="@dimen/width_height_img_details"
+                app:srcCompat="@drawable/ic_calories"/>
+
+            <TextView
+                android:id="@+id/calorie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_margin="16dp"
+                tools:text="Kca20"
+                android:textStyle="bold"
+                android:textSize="21sp"
+                android:textColor="@color/back_text"
+                app:fitCalorie="@{detail.fit}"/>
+
+            <TextView
+                android:id="@+id/txt_calorie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_margin="16dp"
+                tools:text="Calories"
+                android:text="@string/calories"
+                android:textSize="17sp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraint_push"
+            app:layout_constraintTop_toBottomOf="@id/constraint_duration"
+            app:layout_constraintEnd_toStartOf="@id/guideline_center"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="@dimen/margin_item_top"
+            android:layout_width="@dimen/width_item_details"
+            android:layout_height="@dimen/height_item_details"
+            android:background="@drawable/history_back"
+            android:elevation="2dp">
+
+            <ImageView
+                android:id="@+id/img_push"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_margin="16dp"
+                android:layout_width="@dimen/width_height_img_details"
+                android:layout_height="@dimen/width_height_img_details"
+                app:srcCompat="@drawable/ic_push_ups"/>
+
+
+            <TextView
+                android:id="@+id/push_pro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:textColor="@color/back_text"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.3"
+                tools:text="8"
+                app:fitPushCount="@{detail.fit}"/>
+
+
+            <TextView
+                android:id="@+id/txt_push_pro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/push_pro"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                tools:text="Push ups"
+                android:text="@string/push_ups"
+                android:textSize="17sp" />
+
+
+            <TextView
+                android:id="@+id/push_free"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:textColor="@color/back_text"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.75"
+                tools:text="20"
+                app:fitPushCountFree="@{detail.fit}"/>
+
+            <TextView
+                android:id="@+id/txt_push_free"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/push_free"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                tools:text="Push ups Free"
+                android:text="@string/push_ups_free"
+                android:textSize="17sp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraint_sit"
+            app:layout_constraintTop_toBottomOf="@id/constraint_calorie"
+            app:layout_constraintStart_toEndOf="@id/guideline_center"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="@dimen/margin_item_top"
+            android:layout_width="@dimen/width_item_details"
+            android:layout_height="@dimen/height_item_details"
+            android:background="@drawable/history_back"
+            android:elevation="2dp">
+
+            <ImageView
+                android:id="@+id/img_sit"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_margin="16dp"
+                android:layout_width="@dimen/width_height_img_details"
+                android:layout_height="@dimen/width_height_img_details"
+                app:srcCompat="@drawable/ic_sit"/>
+
+
+            <TextView
+                android:id="@+id/sit_pro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:textColor="@color/back_text"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.3"
+                tools:text="25"
+                app:fitSitCount="@{detail.fit}"/>
+
+
+            <TextView
+                android:id="@+id/txt_sit_pro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/sit_pro"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                tools:text="Sit ups"
+                android:text="@string/sit_ups"
+                android:textSize="17sp" />
+
+
+            <TextView
+                android:id="@+id/sit_free"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:textColor="@color/back_text"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.75"
+                tools:text="10"
+                app:fitSitCountFree="@{detail.fit}"/>
+
+            <TextView
+                android:id="@+id/txt_sit_free"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/sit_free"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                tools:text="Sit ups Free"
+                android:text="@string/sit_ups_free"
+                android:textSize="17sp" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraint_squat"
+            app:layout_constraintTop_toBottomOf="@id/constraint_push"
+            app:layout_constraintEnd_toStartOf="@id/guideline_center"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="@dimen/margin_item_top"
+            android:layout_width="@dimen/width_item_details"
+            android:layout_height="@dimen/height_item_details"
+            android:background="@drawable/history_back"
+            android:elevation="2dp">
+
+            <ImageView
+                android:id="@+id/img_squat"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_margin="16dp"
+                android:layout_width="@dimen/width_height_img_details"
+                android:layout_height="@dimen/width_height_img_details"
+                app:srcCompat="@drawable/ic_squat"/>
+
+
+            <TextView
+                android:id="@+id/squat_pro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:textColor="@color/back_text"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.3"
+                tools:text="8"
+                app:fitSquatCount="@{detail.fit}"/>
+
+
+            <TextView
+                android:id="@+id/txt_squat_pro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/squat_pro"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                tools:text="Push ups"
+                android:text="@string/squats"
+                android:textSize="17sp" />
+
+
+            <TextView
+                android:id="@+id/squat_free"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:textColor="@color/back_text"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.75"
+                tools:text="20"
+                app:fitSquatCountFree="@{detail.fit}"/>
+
+            <TextView
+                android:id="@+id/txt_squat_free"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/squat_free"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                tools:text="Push ups Free"
+                android:text="@string/squat_free"
+                android:textSize="17sp"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Space
+            app:layout_constraintTop_toBottomOf="@id/constraint_squat"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</layout>

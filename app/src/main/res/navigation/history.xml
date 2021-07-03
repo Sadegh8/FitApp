@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/history"
+    app:startDestination="@id/historyFragment2">
+
+    <fragment
+        android:id="@+id/historyFragment2"
+        android:name="com.panda.app.fitapp.history.HistoryFragment"
+        android:label="@string/history"
+        tools:layout="@layout/fragment_history">
+        <action
+            android:id="@+id/action_historyFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment2" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailsFragment2"
+        android:name="com.panda.app.fitapp.details.DetailsFragment"
+        android:label="@string/Details"
+        tools:layout="@layout/fragment_details">
+        <argument
+            android:name="fitId"
+            app:argType="long" />
+    </fragment>
+
+</navigation>

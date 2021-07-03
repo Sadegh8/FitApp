@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Πάρτε το Fit</string>
+    <string name="push_ups">Push ups</string>
+
+    <string name="sleep_tracker_fragment">SleepTrackerFragment</string>
+
+
+    <string name="squats">Squats</string>
+    <string name="sit_ups">Sit ups</string>
+    <string name="plank">Plank</string>
+    <string name="start">αρχή</string>
+
+
+    <!-- Output to TextView styled with a little HTML -->
+    <string name="title"><![CDATA[<h3>HERE IS YOUR FIT DATA</h3>]]></string>
+    <string name="start_time"><![CDATA[<b>Start:</b>]]></string>
+    <string name="end_time"><![CDATA[<b>End:</b>]]></string>
+    <string name="quality"><![CDATA[<b>Quality:</b>]]></string>
+    <string name="hours_slept"><![CDATA[<b>Hours:Minutes:Seconds</b>]]></string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="squat">Squat</string>
+    <string name="sit_up">Sit up</string>
+    <string name="push_up">Push up</string>
+    <string name="settings_title">Ρυθμίσεις</string>
+    <string name="Language_pref">Γλώσσα</string>
+    <string name="select_language">Επιλέγω</string>
+    <string name="exercise_program">Πρόγραμμα άσκησης</string>
+    <string name="test">Δοκιμή</string>
+    <string name="level_test">Δημιουργία σχεδίων προπόνησης</string>
+    <string name="history">Ιστορία</string>
+    <string name="home">Σπίτι</string>
+    <string name="profile">Προφίλ</string>
+    <string name="date_added_newest">Ημερομηνία προσθήκης (νεότερο)</string>
+    <string name="sort_by">Ταξινόμηση κατά</string>
+    <string name="date_added_oldest">Ημερομηνία προσθήκης (παλαιότερη)</string>
+    <string name="duration">Διάρκεια</string>
+    <string name="calories">Θερμίδες</string>
+    <string name="push_ups_free">Ελεύθερη πρακτική</string>
+    <string name="sit_ups_free">Ελεύθερη πρακτική</string>
+    <string name="squat_free">Ελεύθερη πρακτική</string>
+    <string name="Details">Λεπτομέριες</string>
+    <string name="gender">Γένος</string>
+    <string name="done">Ολοκληρώθηκε</string>
+    <string name="cancel">Ματαίωση</string>
+    <string name="weight">Βάρος</string>
+    <string name="height">Υψος</string>
+    <string name="age">Ηλικία</string>
+    <string name="your_level">Το επίπεδό σας</string>
+    <string name="total_push_ups">Καθημερινό Πρόγραμμα:</string>
+    <string name="total_free">Ελεύθερη πρακτική:</string>
+    <string name="total_sit_ups">Καθημερινό Πρόγραμμα:</string>
+    <string name="total_squat">Καθημερινό Πρόγραμμα:</string>
+    <string name="congratulation">Συγχαρητήρια</string>
+    <string name="workout">Προπόνηση</string>
+    <string name="about_you">Σχετικά με εσένα</string>
+    <string name="male">Αρσενικός</string>
+    <string name="female">Θηλυκός</string>
+    <string name="free_practice">Ελεύθερη πρακτική</string>
+    <string name="free_sit_ups">Ελεύθερη πρακτική:</string>
+    <string name="theme_pref">Θέμα</string>
+    <string name="dark_theme">Dark θέμα</string>
+    <string name="cleared">Εκκαθάριση!</string>
+    <string name="please_do">Κάνετε όσο το δυνατόν περισσότερη ώθηση, καθιστή και οκλαδόν σε ένα σετ για να δημιουργήσετε ένα καθημερινό πρόγραμμα άσκησης με βάση τα αποτελέσματα.</string>
+    <string name="general">Γενικός</string>
+    <string name="reminder">Υπενθύμιση</string>
+    <string name="unit">Μονάδα</string>
+    <string name="you_did_it_congratulation">Συγχαρητήρια! Έχετε ολοκληρώσει την άσκησή σας σήμερα.</string>
+    <string name="bmi">BMI</string>
+    <string name="tutorial">Φροντιστήριο</string>
+    <string name="ok">Εντάξει</string>
+    <string name="normal_bmi">Κανονική περιοχή BMI: 18,5–24,9</string>
+    <string name="underweight"><![CDATA[Βάρος υπογλυκαιμίας: <18,5]]></string>
+    <string name="overweight">Μεγαλύτερο εύρος BMI: 25–29,9</string>
+    <string name="obesity">Περιοχή BMI παχυσαρκίας: 30 ή μεγαλύτερη</string>
+    <string name="there_is_no">Δεν υπάρχει κάτι να δεις εδώ.</string>
+    <string name="clear_all">Τα καθαρίζω όλα ?</string>
+    <string name="delete_all">Διαγράψτε το ιστορικό γυμναστικής</string>
+    <string name="info">Πληροφορίες</string>
+    <string name="see_how_do">Κάντε κλικ για να δείτε την άσκηση άσκησης</string>
+    <string name="tap_here">Κάντε κλικ για να ξεκινήσετε</string>
+    <string name="push_ups_tutorial">Για να μετρήσετε τον αριθμό των push-ups, τοποθετήστε τη συσκευή στο έδαφος όπως φαίνεται στην εικόνα και στη συνέχεια ξεκινήστε την άσκηση.</string>
+    <string name="sit_ups_tutorial">Για να μετρήσετε τον αριθμό των sit-ups, κρατήστε τη συσκευή και κάντε την άσκηση με τη συσκευή σας (Καλύτερα να κρατάτε τη συσκευή οριζόντια).</string>
+    <string name="squat_tutorial">Για να μετρήσετε τον αριθμό των καταλήψεων, κρατήστε τη συσκευή και κάντε την άσκηση με τη συσκευή σας.</string>
+    <string name="every_day">Κάθε μέρα στο</string>
+    <string name="version">Version:</string>
+    <string name="libraries">Libraries</string>
+    <string name="airbnb_lottie">Airbnb lottie</string>
+    <string name="flaticon">Flaticon</string>
+    <string name="lottiefiles">lottiefiles</string>
+    <string name="icons">Icons</string>
+    <string name="feeback">Ανατροφοδότηση</string>
+
+
+    <string-array name="unitValues">
+        <item name="metric">1</item>
+        <item name="imperial">2</item>
+    </string-array>
+
+    <string-array name="units">
+        <item name="metric">Μετρικές μονάδες (m, km)</item>
+        <item name="imperial">Imperial μονάδες (ft, yd, μίλια)</item>
+    </string-array>
+
+    <string name="later">Αργότερα</string>
+    <string name="message">Αν σας αρέσει να χρησιμοποιείτε αυτήν την εφαρμογή, θα σας άρεσε λίγο να το αξιολογήσετε; Ευχαριστώ για την υποστήριξη.</string>
+    <string name="exit">Εξοδος</string>
+    <string name="no_thanks">Οχι! , Ευχαριστώ</string>
+    <string name="rate_now">Βαθμολογήστε το τώρα</string>
+    <string name="bubbleshowcase_android">BubbleShowCase-Android</string>
+    <string name="record">Record:</string>
+    <string name="cm">cm</string>
+    <string name="feet">feet</string>
+
+
+</resources>

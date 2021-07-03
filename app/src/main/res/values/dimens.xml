@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_item_details">240dp</dimen>
+    <dimen name="height_item_details_c">170dp</dimen>
+    <dimen name="width_item_details">145dp</dimen>
+    <dimen name="width_height_img_details">40dp</dimen>
+    <dimen name="margin_item_top">18dp</dimen>
+    <dimen name="width_profile_item">160dp</dimen>
+    <dimen name="progress_width_height">215dp</dimen>
+</resources>

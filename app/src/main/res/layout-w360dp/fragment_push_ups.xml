@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="pushUpsViewModel"
+            type="com.panda.app.fitapp.pushup.PushUpsViewModel" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".pushup.PushUpsFragment">
+
+        <Chronometer
+            android:id="@+id/chronometer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/progressBar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="@color/back_text"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:textSize="28sp"/>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:layout_constraintStart_toStartOf="parent"
+            ads:layout_constraintEnd_toEndOf="parent"
+            ads:layout_constraintBottom_toTopOf="@id/progressBar"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-2820216276511886/1682963556">
+        </com.google.android.gms.ads.AdView>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="@dimen/progress_width_height"
+            android:layout_height="@dimen/progress_width_height"
+            android:layout_centerInParent="true"
+            android:indeterminate="false"
+            android:max="100"
+            android:onClick="@{() -> pushUpsViewModel.addPushUps()}"
+            android:progress="0"
+            android:progressDrawable="@drawable/custom_progressbar"
+            android:secondaryProgress="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.3800000" />
+
+        <TextView
+            android:id="@+id/text_push_ups"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:onClick="@{() -> pushUpsViewModel.addPushUps()}"
+            android:text="0"
+            android:textColor="@color/back_text"
+            android:textSize="55sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/progressBar"
+            app:layout_constraintEnd_toEndOf="@id/progressBar"
+            app:layout_constraintStart_toStartOf="@id/progressBar"
+            app:layout_constraintTop_toTopOf="@id/progressBar" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/play"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:onClick="@{() -> pushUpsViewModel.playChrono()}"
+            app:srcCompat="@drawable/ic_play_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/progressBar" />
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/play_pause"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:lottie_autoPlay="false"
+            app:lottie_fileName="play_pause.json"
+            app:lottie_loop="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/progressBar" />
+
+        <Button
+            android:id="@+id/done"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:text="@string/done"
+            android:textColor="#000"
+            android:textSize="19sp"
+            android:visibility="visible"
+            android:onClick="@{() -> pushUpsViewModel.onSitUps()}"
+            android:layout_margin="16dp"
+            android:background="@drawable/start_back"/>
+
+
+        <ImageView
+            android:id="@+id/record_img"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="22dp"
+            app:srcCompat="@drawable/ic_trophy"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/question_img"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="22dp"
+            app:srcCompat="@drawable/ic_question"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/record_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textColor="@color/back_text"
+            android:textSize="22sp"
+            app:layout_constraintTop_toTopOf="@id/record_img"
+            app:layout_constraintBottom_toBottomOf="@id/record_img"
+            app:layout_constraintStart_toEndOf="@id/record_img"/>
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

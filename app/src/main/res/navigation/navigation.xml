@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+>
+
+<!--    <fragment-->
+<!--        android:id="@+id/mainFragment"-->
+<!--        android:name="com.panda.app.fitapp.MainFragment"-->
+<!--        android:label="@string/app_name"-->
+<!--        tools:layout="@layout/fragment_main"-->
+<!--        >-->
+<!--        <action-->
+<!--            android:id="@+id/action_mainFragment_to_pushUpsFragment"-->
+<!--            app:destination="@id/pushUpsFragment"-->
+<!--            app:enterAnim="@anim/fade_in"-->
+<!--            app:exitAnim="@anim/fade_out"-->
+<!--            app:popEnterAnim="@anim/fade_in"-->
+<!--            app:popExitAnim="@anim/fade_out" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_mainFragment_to_squatsFragment"-->
+<!--            app:destination="@id/squatsFragment"-->
+<!--            app:enterAnim="@anim/fade_in"-->
+<!--            app:exitAnim="@anim/fade_out"-->
+<!--            app:popEnterAnim="@anim/fade_in"-->
+<!--            app:popExitAnim="@anim/fade_out"/>-->
+<!--        <action-->
+<!--            android:id="@+id/action_mainFragment_to_sitUpsFragment"-->
+<!--            app:destination="@id/sitUpsFragment"-->
+<!--            app:enterAnim="@anim/fade_in"-->
+<!--            app:exitAnim="@anim/fade_out"-->
+<!--            app:popEnterAnim="@anim/fade_in"-->
+<!--            app:popExitAnim="@anim/fade_out"/>-->
+<!--        <action-->
+<!--            android:id="@+id/action_mainFragment_to_workoutFragment"-->
+<!--            app:destination="@id/workoutFragment"-->
+<!--            app:enterAnim="@anim/fade_in"-->
+<!--            app:exitAnim="@anim/fade_out"-->
+<!--            app:popEnterAnim="@anim/fade_in"-->
+<!--            app:popExitAnim="@anim/fade_out"/>-->
+<!--        <action-->
+<!--            android:id="@+id/action_mainFragment_to_levelTestFragment"-->
+<!--            app:destination="@id/levelTestFragment"-->
+<!--            app:enterAnim="@anim/fade_in"-->
+<!--            app:exitAnim="@anim/fade_out"-->
+<!--            app:popEnterAnim="@anim/fade_in"-->
+<!--            app:popExitAnim="@anim/fade_out"/>-->
+<!--        <action-->
+<!--            android:id="@+id/action_mainFragment_to_historyFragment"-->
+<!--            app:destination="@id/historyFragment" />-->
+
+<!--    </fragment>-->
+<!--    <fragment-->
+<!--        android:id="@+id/pushUpsFragment"-->
+<!--        android:name="com.panda.app.fitapp.pushup.PushUpsFragment"-->
+<!--        android:label="@string/push_ups"-->
+<!--        tools:layout="@layout/fragment_push_ups" >-->
+<!--        <argument-->
+<!--            android:name="numLevel"-->
+<!--            app:argType="string" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_pushUpsFragment_to_sitUpsFragment"-->
+<!--            app:destination="@id/sitUpsFragment"-->
+<!--            app:enterAnim="@anim/slide_in_right"-->
+<!--            app:exitAnim="@anim/slide_out_left"-->
+<!--            app:popEnterAnim="@anim/slide_in_left"-->
+<!--            app:popExitAnim="@anim/slide_out_right"-->
+<!--            app:popUpTo="@+id/mainFragment" />-->
+<!--    </fragment>-->
+<!--    <fragment-->
+<!--        android:id="@+id/squatsFragment"-->
+<!--        android:name="com.panda.app.fitapp.squats.SquatsFragment"-->
+<!--        android:label="@string/squats" >-->
+<!--        <action-->
+<!--            android:id="@+id/action_squatsFragment_to_levelTestFragment"-->
+<!--            app:destination="@id/levelTestFragment"-->
+<!--            app:popUpTo="@+id/mainFragment" />-->
+<!--        <argument-->
+<!--            android:name="sitcount"-->
+<!--            app:argType="string" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_squatsFragment_to_congratulationFragment"-->
+<!--            app:destination="@id/congratulationFragment"-->
+<!--            app:popUpTo="@+id/mainFragment" />-->
+<!--    </fragment>-->
+<!--    <fragment-->
+<!--        android:id="@+id/sitUpsFragment"-->
+<!--        android:name="com.panda.app.fitapp.sitUps.SitUpsFragment"-->
+<!--        android:label="@string/sit_ups" >-->
+<!--        <action-->
+<!--            android:id="@+id/action_sitUpsFragment_to_squatsFragment"-->
+<!--            app:destination="@id/squatsFragment"-->
+<!--            app:popUpTo="@+id/mainFragment"-->
+<!--            app:enterAnim="@anim/slide_in_right"-->
+<!--            app:exitAnim="@anim/slide_out_left"-->
+<!--            app:popEnterAnim="@anim/slide_in_left"-->
+<!--            app:popExitAnim="@anim/slide_out_right"/>-->
+<!--        <argument-->
+<!--            android:name="pushcount"-->
+<!--            app:argType="string" />-->
+<!--    </fragment>-->
+<!--    <fragment-->
+<!--        android:id="@+id/workoutFragment"-->
+<!--        android:name="com.panda.app.fitapp.mainworkout.WorkoutFragment"-->
+<!--        android:label="@string/workout" >-->
+<!--        <action-->
+<!--            android:id="@+id/action_workoutFragment_to_pushUpsFragment"-->
+<!--            app:destination="@id/pushUpsFragment" />-->
+<!--    </fragment>-->
+<!--    <fragment-->
+<!--        android:id="@+id/levelTestFragment"-->
+<!--        android:name="com.panda.app.fitapp.testLevel.LevelTestFragment"-->
+<!--        android:label="@string/level_test"-->
+<!--        tools:layout="@layout/fragment_level_test" >-->
+<!--        <action-->
+<!--            android:id="@+id/action_levelTestFragment_to_pushUpsFragment"-->
+<!--            app:destination="@id/pushUpsFragment"-->
+<!--            app:popUpTo="@+id/levelTestFragment" />-->
+<!--        <argument-->
+<!--            android:name="level"-->
+<!--            app:argType="string" />-->
+<!--    </fragment>-->
+<!--    <fragment-->
+<!--        android:id="@+id/historyFragment"-->
+<!--        android:name="com.panda.app.fitapp.history.HistoryFragment"-->
+<!--        android:label="@string/history"-->
+<!--        tools:layout="@layout/fragment_history">-->
+<!--        <action-->
+<!--            android:id="@+id/action_historyFragment_to_detailsFragment"-->
+<!--            app:destination="@id/detailsFragment" />-->
+<!--    </fragment>-->
+<!--    <fragment-->
+<!--        android:id="@+id/congratulationFragment"-->
+<!--        android:name="com.panda.app.fitapp.congratulation.CongratulationFragment"-->
+<!--        android:label="@string/congratulation"-->
+<!--        tools:layout="@layout/fragment_congratulation" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/detailsFragment"-->
+<!--        android:name="com.panda.app.fitapp.details.DetailsFragment"-->
+<!--        android:label="@string/Details"-->
+<!--        tools:layout="@layout/fragment_details">-->
+<!--        <argument-->
+<!--            android:name="fitId"-->
+<!--            app:argType="long" />-->
+<!--    </fragment>-->
+<!--    <fragment-->
+<!--        android:id="@+id/profileFragment"-->
+<!--        android:name="com.panda.app.fitapp.profile.ProfileFragment"-->
+<!--        android:label="@string/profile"-->
+<!--        >-->
+<!--        <action-->
+<!--            android:id="@+id/action_profileFragment_to_settingsFragment"-->
+<!--            app:destination="@id/settingsFragment"-->
+<!--            app:enterAnim="@anim/fade_in"-->
+<!--            app:exitAnim="@anim/fade_out"-->
+<!--            app:popEnterAnim="@anim/fade_in"-->
+<!--            app:popExitAnim="@anim/fade_out"/>-->
+<!--    </fragment>-->
+<!--    <fragment-->
+<!--        android:id="@+id/settingsFragment"-->
+<!--        android:name="com.panda.app.fitapp.settings.SettingsFragment"-->
+<!--        android:label="@string/settings_title"-->
+<!--        tools:layout="@layout/fragment_settings" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/splashFragment"-->
+<!--        android:name="com.panda.app.fitapp.splash.SplashFragment"-->
+<!--        android:label="fragment_splash"-->
+<!--        tools:layout="@layout/fragment_splash" >-->
+<!--        <action-->
+<!--            android:id="@+id/action_splashFragment_to_mainFragment"-->
+<!--            app:destination="@id/mainFragment"-->
+<!--            app:launchSingleTop="true"-->
+<!--            app:enterAnim="@anim/slide_in_right"-->
+<!--            app:exitAnim="@anim/slide_out_left"-->
+<!--            app:popEnterAnim="@anim/slide_in_left"-->
+<!--            app:popExitAnim="@anim/slide_out_right"-->
+<!--            app:popUpTo="@id/splashFragment"-->
+<!--            app:popUpToInclusive="true" />-->
+<!--    </fragment>-->
+<!--    <fragment-->
+<!--        android:id="@+id/appInfoFragment"-->
+<!--        android:name="com.panda.app.fitapp.info.AppInfoFragment"-->
+<!--        android:label="@string/info" />-->
+
+
+</navigation>

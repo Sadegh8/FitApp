@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mettiti in forma</string>
+    <string name="push_ups">Push ups</string>
+
+    <string name="sleep_tracker_fragment">SleepTrackerFragment</string>
+
+
+    <string name="squats">Squats</string>
+    <string name="sit_ups">Sit ups</string>
+    <string name="plank">Plank</string>
+    <string name="start">inizio</string>
+
+
+    <!-- Output to TextView styled with a little HTML -->
+    <string name="title"><![CDATA[<h3>HERE IS YOUR FIT DATA</h3>]]></string>
+    <string name="start_time"><![CDATA[<b>Start:</b>]]></string>
+    <string name="end_time"><![CDATA[<b>End:</b>]]></string>
+    <string name="quality"><![CDATA[<b>Quality:</b>]]></string>
+    <string name="hours_slept"><![CDATA[<b>Hours:Minutes:Seconds</b>]]></string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="squat">Squat</string>
+    <string name="sit_up">Sit up</string>
+    <string name="push_up">Push up</string>
+    <string name="settings_title">impostazioni</string>
+    <string name="Language_pref">linguaggio</string>
+    <string name="select_language">Selezionare</string>
+    <string name="exercise_program">Programma di allenamento</string>
+    <string name="test">Test</string>
+    <string name="level_test">Costruisci piani di allenamento</string>
+    <string name="history">Storia</string>
+    <string name="home">Casa</string>
+    <string name="profile">Profilo</string>
+    <string name="date_added_newest">Data aggiunta (più recente)</string>
+    <string name="sort_by">Ordina per</string>
+    <string name="date_added_oldest">Data aggiunta (meno recente)</string>
+    <string name="duration">Durata</string>
+    <string name="calories">calorie</string>
+    <string name="push_ups_free">Prove libere</string>
+    <string name="sit_ups_free">Prove libere</string>
+    <string name="squat_free">Prove libere</string>
+    <string name="Details">Dettagli</string>
+    <string name="gender">Genere</string>
+    <string name="done">Fatto</string>
+    <string name="cancel">Annulla</string>
+    <string name="weight">Peso</string>
+    <string name="height">Altezza</string>
+    <string name="age">Età</string>
+    <string name="your_level">Il tuo livello</string>
+    <string name="total_push_ups">Programma giornaliero:</string>
+    <string name="total_free">Prove libere:</string>
+    <string name="total_sit_ups">Programma giornaliero:</string>
+    <string name="total_squat">Programma giornaliero:</string>
+    <string name="congratulation">congratulazione</string>
+    <string name="workout">Allenarsi</string>
+    <string name="about_you">A proposito di te</string>
+    <string name="male">Maschio</string>
+    <string name="female">Femmina</string>
+    <string name="free_practice">Prove libere</string>
+    <string name="free_sit_ups">Prove libere:</string>
+    <string name="theme_pref">Tema</string>
+    <string name="dark_theme">Tema scuro</string>
+    <string name="cleared">Azzerata!</string>
+    <string name="please_do">Per favore, fai il più possibile alzandoti, sedendoti e accovacciati in un set per costruire un programma di esercizi quotidiani basato sui risultati.</string>
+    <string name="general">Generale</string>
+    <string name="reminder">Promemoria</string>
+    <string name="unit">Unità</string>
+    <string name="you_did_it_congratulation">Congratulazioni! Hai completato l\'esercizio oggi.</string>
+    <string name="bmi">BMI</string>
+    <string name="tutorial">lezione</string>
+    <string name="ok">OK</string>
+    <string name="normal_bmi">Tutorial Gamma BMI normale: 18,5–24,9</string>
+    <string name="underweight"><![CDATA[Intervallo di BMI sottopeso: <18,5]]></string>
+    <string name="overweight">Intervallo BMI in sovrappeso: 25–29,9</string>
+    <string name="obesity">Intervallo di BMI dell\'obesità: 30 o superiore</string>
+    <string name="there_is_no">Nulla da vedere qui.</string>
+    <string name="clear_all">Cancella tutto ?</string>
+    <string name="delete_all">Elimina tutta la cronologia del fitness</string>
+    <string name="info">Informazioni</string>
+    <string name="see_how_do">Fare clic per visualizzare l\'allenamento</string>
+    <string name="tap_here">Clicca per iniziare</string>
+    <string name="push_ups_tutorial">Per contare il numero di flessioni, posiziona il dispositivo a terra come mostrato in figura, quindi inizia l\'esercizio.</string>
+    <string name="sit_ups_tutorial">Per contare il numero di sit-up, tieni il dispositivo e fai l\'esercizio con il tuo dispositivo (meglio tenere il dispositivo in posizione orizzontale).</string>
+    <string name="squat_tutorial">Per contare il numero di squat, tieni il dispositivo in mano e fai l\'esercizio con il tuo dispositivo.</string>
+    <string name="every_day">Ogni giorno alle</string>
+    <string name="version">Version:</string>
+    <string name="libraries">Libraries</string>
+    <string name="airbnb_lottie">Airbnb lottie</string>
+    <string name="flaticon">Flaticon</string>
+    <string name="lottiefiles">lottiefiles</string>
+    <string name="icons">Icons</string>
+    <string name="feeback">Risposta</string>
+
+
+    <string-array name="unitValues">
+        <item name="metric">1</item>
+        <item name="imperial">2</item>
+    </string-array>
+
+    <string-array name="units">
+        <item name="metric">Unità metriche (m, km)</item>
+        <item name="imperial">Unità imperiali (ft, yd, mile)</item>
+    </string-array>
+
+    <string name="later">Dopo</string>
+    <string name="message">Se ti piace usare questa app, ti dispiacerebbe prenderti un momento per valutarla? Grazie per il vostro sostegno.</string>
+    <string name="exit">Uscita</string>
+    <string name="no_thanks">No! , Grazie</string>
+    <string name="rate_now">Vota adesso</string>
+    <string name="bubbleshowcase_android">BubbleShowCase-Android</string>
+    <string name="record">Record:</string>
+    <string name="cm">cm</string>
+    <string name="feet">feet</string>
+
+
+</resources>

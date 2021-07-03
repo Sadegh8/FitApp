@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">كن بالحجم المناسب</string>
+    <string name="push_ups">تَمْرين الضَغْطِ</string>
+
+    <string name="sleep_tracker_fragment">SleepTrackerFragment</string>
+
+
+    <string name="squats">Squats</string>
+    <string name="sit_ups">تمارین شد البطن</string>
+    <string name="plank">Plank</string>
+    <string name="start">بداية</string>
+
+
+    <!-- Output to TextView styled with a little HTML -->
+    <string name="title"><![CDATA[<h3>HERE IS YOUR FIT DATA</h3>]]></string>
+    <string name="start_time"><![CDATA[<b>Start:</b>]]></string>
+    <string name="end_time"><![CDATA[<b>End:</b>]]></string>
+    <string name="quality"><![CDATA[<b>Quality:</b>]]></string>
+    <string name="hours_slept"><![CDATA[<b>Hours:Minutes:Seconds</b>]]></string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="squat">Squat</string>
+    <string name="sit_up">تمارین شد البطن</string>
+    <string name="push_up">تَمْرين الضَغْط</string>
+    <string name="settings_title">الإعدادات</string>
+    <string name="Language_pref">لغة</string>
+    <string name="select_language">تحديد</string>
+    <string name="exercise_program">برنامج التمرين</string>
+    <string name="test">اختبار</string>
+    <string name="level_test">بناء خطط تجريب</string>
+    <string name="history">التاريخ</string>
+    <string name="home">منزل</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="date_added_newest">تاريخ الإضافة (الأحدث)</string>
+    <string name="sort_by">ترتيب حسب</string>
+    <string name="date_added_oldest">تاريخ الإضافة (الأقدم)</string>
+    <string name="duration">المدة الزمنية</string>
+    <string name="calories">سعرات حراريه</string>
+    <string name="push_ups_free">الممارسة الحرة</string>
+    <string name="sit_ups_free">الممارسة الحرة</string>
+    <string name="squat_free">الممارسة الحرة</string>
+    <string name="Details">تفاصيل</string>
+    <string name="gender">جنس</string>
+    <string name="done">منجز</string>
+    <string name="cancel">إلغاء</string>
+    <string name="weight">وزن</string>
+    <string name="height">ارتفاع</string>
+    <string name="age">عمر</string>
+    <string name="your_level">مستواك</string>
+    <string name="total_push_ups">البرنامج اليومي:</string>
+    <string name="total_free">الممارسة الحرة:</string>
+    <string name="total_sit_ups">البرنامج اليومي:</string>
+    <string name="total_squat">البرنامج اليومي:</string>
+    <string name="congratulation">تهنئة</string>
+    <string name="workout">تجريب</string>
+    <string name="about_you">حولك</string>
+    <string name="male">الذكر</string>
+    <string name="female">أنثى</string>
+    <string name="free_practice">الممارسة الحرة</string>
+    <string name="free_sit_ups">الممارسة الحرة:</string>
+    <string name="theme_pref">موضوع</string>
+    <string name="dark_theme">موضوع الظلام</string>
+    <string name="cleared">تطهيرها!</string>
+    <string name="please_do">يرجى القيام بأكبر قدر ممكن من الضغط لأعلى والجلوس والقرفصاء قدر الإمكان في مجموعة واحدة لإنشاء برنامج تمارين يومي يعتمد على النتائج.</string>
+    <string name="general">جنرال لواء</string>
+    <string name="reminder">تذكير</string>
+    <string name="unit">وحدة</string>
+    <string name="you_did_it_congratulation">تهانينا! لقد أكملت تمرينك اليوم.</string>
+    <string name="bmi">BMI</string>
+    <string name="tutorial">الدورة التعليمية</string>
+    <string name="ok">حسنا</string>
+    <string name="normal_bmi">نطاق مؤشر كتلة الجسم العادي: 18.5–24.9</string>
+    <string name="underweight"><![CDATA[نطاق مؤشر كتلة الجسم ناقص الوزن: <18.5]]></string>
+    <string name="overweight">زيادة مؤشر كتلة الجسم: 25–29.9</string>
+    <string name="obesity">السمنة مؤشر كتلة الجسم: 30 أو أكبر</string>
+    <string name="there_is_no">لا شيء لرؤية هنا.</string>
+    <string name="clear_all">امسح الكل ؟</string>
+    <string name="delete_all">حذف كل سجل اللياقة؟</string>
+    <string name="info">معلومات</string>
+    <string name="see_how_do">انقر لعرض التدريب التمرين</string>
+    <string name="tap_here">انقر لتبدأ</string>
+    <string name="push_ups_tutorial">لحساب عدد عمليات الدفع ، يرجى وضع الجهاز على الأرض كما هو موضح في الصورة ثم ابدأ التمرين.</string>
+    <string name="sit_ups_tutorial">لحساب عدد مرات الجلوس ، يرجى الاحتفاظ بالجهاز والقيام بالتمرين باستخدام جهازك (من الأفضل الاحتفاظ بالجهاز أفقيًا).</string>
+    <string name="squat_tutorial">لحساب عدد القرفصاء ، يرجى الاحتفاظ بالجهاز والقيام بالتمرين باستخدام جهازك.</string>
+    <string name="every_day">كل يوم في</string>
+    <string name="version">Version:</string>
+    <string name="libraries">Libraries</string>
+    <string name="airbnb_lottie">Airbnb lottie</string>
+    <string name="flaticon">Flaticon</string>
+    <string name="lottiefiles">lottiefiles</string>
+    <string name="icons">Icons</string>
+    <string name="feeback">ردود الفعل</string>
+
+
+    <string-array name="unitValues">
+        <item name="metric">1</item>
+        <item name="imperial">2</item>
+    </string-array>
+
+    <string-array name="units">
+        <item name="metric">الوحدات المترية (م ، كم)</item>
+        <item name="imperial">الوحدات الإمبراطورية (قدم ، ياردة ، ميل)</item>
+    </string-array>
+
+    <string name="later">في وقت لاحق</string>
+    <string name="message">إذا كنت تستمتع باستخدام هذا التطبيق ، فهل تمانع في قضاء بعض الوقت لتقييمه؟ شكرا لدعمك.</string>
+    <string name="exit">خروج</string>
+    <string name="no_thanks">لا! ، شكر</string>
+    <string name="rate_now">معدل الآن</string>
+    <string name="bubbleshowcase_android">BubbleShowCase-Android</string>
+    <string name="record">Record:</string>
+    <string name="cm">cm</string>
+    <string name="feet">feet</string>
+
+
+</resources>

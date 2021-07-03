@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Werde gesund</string>
+    <string name="push_ups">hochdrücken</string>
+
+    <string name="sleep_tracker_fragment">SleepTrackerFragment</string>
+
+
+    <string name="squats">Squats</string>
+    <string name="sit_ups">Sit ups</string>
+    <string name="plank">Plank</string>
+    <string name="start">Start</string>
+
+
+    <!-- Output to TextView styled with a little HTML -->
+    <string name="title"><![CDATA[<h3>HERE IS YOUR FIT DATA</h3>]]></string>
+    <string name="start_time"><![CDATA[<b>Start:</b>]]></string>
+    <string name="end_time"><![CDATA[<b>End:</b>]]></string>
+    <string name="quality"><![CDATA[<b>Quality:</b>]]></string>
+    <string name="hours_slept"><![CDATA[<b>Hours:Minutes:Seconds</b>]]></string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="squat">Hocken</string>
+    <string name="sit_up">Sit-ups</string>
+    <string name="push_up">hochdrücken</string>
+    <string name="settings_title">die Einstellungen</string>
+    <string name="Language_pref">Sprache</string>
+    <string name="select_language">Wählen</string>
+    <string name="exercise_program">Übungsprogramm</string>
+    <string name="test">Prüfung</string>
+    <string name="level_test">Erstellen Sie Trainingspläne</string>
+    <string name="history">Geschichte</string>
+    <string name="home">Zuhause</string>
+    <string name="profile">Profil</string>
+    <string name="date_added_newest">Datum hinzugefügt (Neueste)</string>
+    <string name="sort_by">Sortiere nach</string>
+    <string name="date_added_oldest">Datum hinzugefügt (älteste)</string>
+    <string name="duration">Dauer</string>
+    <string name="calories">Kalorien</string>
+    <string name="push_ups_free">Freies Training</string>
+    <string name="sit_ups_free">Freies Training</string>
+    <string name="squat_free">Freies Training</string>
+    <string name="Details">Einzelheiten</string>
+    <string name="gender">Geschlecht</string>
+    <string name="done">Erledigt</string>
+    <string name="cancel">Stornieren</string>
+    <string name="weight">Gewicht</string>
+    <string name="height">Höhe</string>
+    <string name="age">Alter</string>
+    <string name="your_level">Dein Niveau</string>
+    <string name="total_push_ups">Tagesprogramm:</string>
+    <string name="total_free">Freies Training:</string>
+    <string name="total_sit_ups">Tagesprogramm:</string>
+    <string name="total_squat">Tagesprogramm:</string>
+    <string name="congratulation">Herzlichen glückwunsch</string>
+    <string name="workout">Trainieren</string>
+    <string name="about_you">Über dich</string>
+    <string name="male">Männlich</string>
+    <string name="female">Weiblich</string>
+    <string name="free_practice">Freies Training</string>
+    <string name="free_sit_ups">Freies Training:</string>
+    <string name="theme_pref">Thema</string>
+    <string name="dark_theme">Dunkles Thema</string>
+    <string name="cleared">Gelöscht!!</string>
+    <string name="please_do">Bitte tun Sie so viel Push-up, Sitting-up und Squatting wie möglich in einem Set, um basierend auf den Ergebnissen ein tägliches Trainingsprogramm zu erstellen.</string>
+    <string name="general">Allgemeines</string>
+    <string name="reminder">Erinnerung</string>
+    <string name="unit">Einheit</string>
+    <string name="you_did_it_congratulation">Herzliche Glückwünsche! Sie haben Ihre Übung heute abgeschlossen.</string>
+    <string name="bmi">BMI</string>
+    <string name="tutorial">Lernprogramm</string>
+    <string name="ok">in Ordnung</string>
+    <string name="normal_bmi">Normaler BMI-Bereich: 18,5–24,9</string>
+    <string name="underweight"><![CDATA[BMI-Bereich untergewichtig: <18,5]]></string>
+    <string name="overweight">Übergewichtiger BMI-Bereich: 25–29,9</string>
+    <string name="obesity">Fettleibigkeits-BMI-Bereich: 30 oder mehr</string>
+    <string name="there_is_no">Es gibt hier nichts zu sehen.</string>
+    <string name="clear_all">Alles löschen ?</string>
+    <string name="delete_all">Alle Fitnessdaten löschen?</string>
+    <string name="info">Die Info</string>
+    <string name="see_how_do">Klicken Sie hier, um das Training anzuzeigen</string>
+    <string name="tap_here">Klicken Sie hier, um zu starten</string>
+    <string name="push_ups_tutorial">Um die Anzahl der Liegestütze zu zählen, stellen Sie das Gerät wie im Bild gezeigt auf den Boden und beginnen Sie dann mit der Übung.</string>
+    <string name="sit_ups_tutorial">Um die Anzahl der Sit-ups zu zählen, halten Sie das Gerät bitte fest und machen Sie die Übung mit Ihrem Gerät (besser, das Gerät horizontal zu halten).</string>
+    <string name="squat_tutorial">Um die Anzahl der Kniebeugen zu zählen, halten Sie bitte das Gerät und machen Sie die Übung mit Ihrem Gerät.</string>
+    <string name="every_day">Jeden Tag um</string>
+    <string name="version">Version:</string>
+    <string name="libraries">Libraries</string>
+    <string name="airbnb_lottie">Airbnb lottie</string>
+    <string name="flaticon">Flaticon</string>
+    <string name="lottiefiles">lottiefiles</string>
+    <string name="icons">Icons</string>
+    <string name="feeback">Feedback</string>
+
+
+    <string-array name="unitValues">
+        <item name="metric">1</item>
+        <item name="imperial">2</item>
+    </string-array>
+
+    <string-array name="units">
+        <item name="metric">Metrische Einheiten (m, km)</item>
+        <item name="imperial">Britische Einheiten (ft, yd, Meile)</item>
+    </string-array>
+
+    <string name="later">Später</string>
+    <string name="message">Wenn Sie diese App gerne nutzen, würde es Ihnen etwas ausmachen, sich einen Moment Zeit zu nehmen, um sie zu bewerten? Danke für deine Unterstützung.</string>
+    <string name="exit">Ausgang</string>
+    <string name="no_thanks">Nein! , Vielen Dank</string>
+    <string name="rate_now">Bewerte es jetzt</string>
+    <string name="bubbleshowcase_android">BubbleShowCase-Android</string>
+    <string name="record">Record:</string>
+    <string name="cm">cm</string>
+    <string name="feet">feet</string>
+
+
+</resources>

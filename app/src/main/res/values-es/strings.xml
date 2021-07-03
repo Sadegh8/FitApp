@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ponerse en forma</string>
+    <string name="push_ups">Push ups</string>
+
+    <string name="sleep_tracker_fragment">SleepTrackerFragment</string>
+
+
+    <string name="squats">Squats</string>
+    <string name="sit_ups">Sit ups</string>
+    <string name="plank">Plank</string>
+    <string name="start">start</string>
+
+
+    <!-- Output to TextView styled with a little HTML -->
+    <string name="title"><![CDATA[<h3>HERE IS YOUR FIT DATA</h3>]]></string>
+    <string name="start_time"><![CDATA[<b>Start:</b>]]></string>
+    <string name="end_time"><![CDATA[<b>End:</b>]]></string>
+    <string name="quality"><![CDATA[<b>Quality:</b>]]></string>
+    <string name="hours_slept"><![CDATA[<b>Hours:Minutes:Seconds</b>]]></string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="squat">Squat</string>
+    <string name="sit_up">Sit up</string>
+    <string name="push_up">Push up</string>
+    <string name="settings_title">Configuraciones</string>
+    <string name="Language_pref">Idioma</string>
+    <string name="select_language">Seleccione</string>
+    <string name="exercise_program">Programa de ejercicio</string>
+    <string name="test">Prueba</string>
+    <string name="level_test">Construye planes de entrenamiento</string>
+    <string name="history">Historia</string>
+    <string name="home">Hogar</string>
+    <string name="profile">Perfil</string>
+    <string name="date_added_newest">Fecha de agregado (más reciente)</string>
+    <string name="sort_by">Ordenar por</string>
+    <string name="date_added_oldest">Fecha de agregado (más antigua)</string>
+    <string name="duration">Duración</string>
+    <string name="calories">Calorías</string>
+    <string name="push_ups_free">Práctica libre</string>
+    <string name="sit_ups_free">Práctica libre</string>
+    <string name="squat_free">Práctica libre</string>
+    <string name="Details">Detalles</string>
+    <string name="gender">Género</string>
+    <string name="done">Hecho</string>
+    <string name="cancel">Cancelar</string>
+    <string name="weight">Peso</string>
+    <string name="height">Altura</string>
+    <string name="age">Años</string>
+    <string name="your_level">Tu nivel</string>
+    <string name="total_push_ups">Programa diario:</string>
+    <string name="total_free">Práctica libre:</string>
+    <string name="total_sit_ups">Programa diario:</string>
+    <string name="total_squat">Programa diario:</string>
+    <string name="congratulation">Enhorabuena</string>
+    <string name="workout">Rutina de ejercicio</string>
+    <string name="about_you">Acerca de ti</string>
+    <string name="male">Masculina</string>
+    <string name="female">Hembra</string>
+    <string name="free_practice">Práctica libre</string>
+    <string name="free_sit_ups">Práctica libre:</string>
+    <string name="theme_pref">Tema</string>
+    <string name="dark_theme">Tema oscuro</string>
+    <string name="cleared">Despejada!</string>
+    <string name="please_do">Haga todo lo posible para levantarse, sentarse y ponerse en cuclillas como sea posible en un conjunto para crear un programa de ejercicio diario basado en los resultados.</string>
+    <string name="general">General</string>
+    <string name="reminder">Recordatorio</string>
+    <string name="unit">Unidad</string>
+    <string name="you_did_it_congratulation">¡Felicidades! Has completado tu ejercicio hoy.</string>
+    <string name="bmi">BMI</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="ok">Okay</string>
+    <string name="normal_bmi">Rango de IMC normal: 18.5–24.9</string>
+    <string name="underweight"><![CDATA[Rango de IMC con bajo peso: <18.5]]></string>
+    <string name="overweight">Rango de IMC con sobrepeso: 25–29.9</string>
+    <string name="obesity">Rango de IMC de obesidad: 30 o mayor</string>
+    <string name="there_is_no">Nada que ver aquí.</string>
+    <string name="clear_all">Limpiar todo ?</string>
+    <string name="delete_all">Eliminar todo el historial de ejercicios</string>
+    <string name="info">Informacion</string>
+    <string name="see_how_do">Haga clic para ver el entrenamiento físico</string>
+    <string name="tap_here">Haga clic para comenzar</string>
+    <string name="push_ups_tutorial">Para contar la cantidad de flexiones, coloque el dispositivo en el suelo como se muestra en la imagen y luego comience el ejercicio.</string>
+    <string name="sit_ups_tutorial">Para contar la cantidad de sentadillas, sostenga el dispositivo y haga el ejercicio con su dispositivo (es mejor sostener el dispositivo horizontalmente).</string>
+    <string name="squat_tutorial">Para contar la cantidad de sentadillas, sostenga el dispositivo y haga el ejercicio con su dispositivo.</string>
+    <string name="every_day">Todos los días a las</string>
+    <string name="version">Version:</string>
+    <string name="libraries">Libraries</string>
+    <string name="airbnb_lottie">Airbnb lottie</string>
+    <string name="flaticon">Flaticon</string>
+    <string name="lottiefiles">lottiefiles</string>
+    <string name="icons">Icons</string>
+    <string name="feeback">Realimentación</string>
+
+
+    <string-array name="unitValues">
+        <item name="metric">1</item>
+        <item name="imperial">2</item>
+    </string-array>
+
+    <string-array name="units">
+        <item name="metric">Unidades métricas (m, km)</item>
+        <item name="imperial">Imperial units (ft, yd, mile)</item>
+    </string-array>
+
+
+    <string name="later">Luego</string>
+    <string name="message">Si le gusta usar esta aplicación, ¿le importaría tomarse un momento para calificarla? Gracias por su apoyo.</string>
+    <string name="exit">Salida</string>
+    <string name="no_thanks">¡No! , Gracias</string>
+    <string name="rate_now">Califícalo ahora</string>
+    <string name="bubbleshowcase_android">BubbleShowCase-Android</string>
+    <string name="record">Record:</string>
+    <string name="cm">cm</string>
+    <string name="feet">feet</string>
+
+</resources>

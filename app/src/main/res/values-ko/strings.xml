@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">멋있는 몸을 만들다</string>
+    <string name="push_ups">Push ups</string>
+
+    <string name="sleep_tracker_fragment">SleepTrackerFragment</string>
+
+
+    <string name="squats">Squats</string>
+    <string name="sit_ups">Sit ups</string>
+    <string name="plank">Plank</string>
+    <string name="start">스타트</string>
+
+
+    <!-- Output to TextView styled with a little HTML -->
+    <string name="title"><![CDATA[<h3>HERE IS YOUR FIT DATA</h3>]]></string>
+    <string name="start_time"><![CDATA[<b>Start:</b>]]></string>
+    <string name="end_time"><![CDATA[<b>End:</b>]]></string>
+    <string name="quality"><![CDATA[<b>Quality:</b>]]></string>
+    <string name="hours_slept"><![CDATA[<b>Hours:Minutes:Seconds</b>]]></string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="squat">Squat</string>
+    <string name="sit_up">Sit up</string>
+    <string name="push_up">Push up</string>
+    <string name="settings_title">설정</string>
+    <string name="Language_pref">언어</string>
+    <string name="select_language">고르다</string>
+    <string name="exercise_program">운동 프로그램</string>
+    <string name="test">테스트</string>
+    <string name="level_test">운동 계획 수립</string>
+    <string name="history">역사</string>
+    <string name="home">집</string>
+    <string name="profile">프로필</string>
+    <string name="date_added_newest">추가 된 날짜 (최신)</string>
+    <string name="sort_by">정렬 기준</string>
+    <string name="date_added_oldest">추가 된 날짜 (가장 오래된 날짜)</string>
+    <string name="duration">지속</string>
+    <string name="calories">칼로리</string>
+    <string name="push_ups_free">무료 연습</string>
+    <string name="sit_ups_free">무료 연습</string>
+    <string name="squat_free">무료 연습</string>
+    <string name="Details">세부</string>
+    <string name="gender">성별</string>
+    <string name="done">끝난</string>
+    <string name="cancel">취소</string>
+    <string name="weight">무게</string>
+    <string name="height">신장</string>
+    <string name="age">나이</string>
+    <string name="your_level">당신의 수준</string>
+    <string name="total_push_ups">일일 프로그램 :</string>
+    <string name="total_free">무료 연습 :</string>
+    <string name="total_sit_ups">일일 프로그램 :</string>
+    <string name="total_squat">일일 프로그램 :</string>
+    <string name="congratulation">축하합니다</string>
+    <string name="workout">연습</string>
+    <string name="about_you">당신에 대해</string>
+    <string name="male">남성</string>
+    <string name="female">여자</string>
+    <string name="free_practice">무료 연습</string>
+    <string name="free_sit_ups">무료 연습</string>
+    <string name="theme_pref">테마</string>
+    <string name="dark_theme">어두운 테마</string>
+    <string name="cleared">클리어!</string>
+    <string name="please_do">결과에 따라 매일 운동 프로그램을 만들기 위해 가능한 한 많이 밀어 올리거나 앉고 쪼그리고 앉으십시오.</string>
+    <string name="general">일반</string>
+    <string name="reminder">조언</string>
+    <string name="unit">단위</string>
+    <string name="you_did_it_congratulation">축하합니다! 오늘 운동을 마쳤습니다.</string>
+    <string name="bmi">BMI</string>
+    <string name="tutorial">지도 시간</string>
+    <string name="ok">확인</string>
+    <string name="normal_bmi">정상적인 BMI 범위 : 18.5–24.9</string>
+    <string name="underweight"><![CDATA[저체중 BMI 범위 : <18.5]]></string>
+    <string name="overweight">과체중 BMI 범위 : 25–29.9</string>
+    <string name="obesity">비만 BMI 범위 : 30 이상</string>
+    <string name="there_is_no">여기는 볼게 없다.</string>
+    <string name="clear_all">모두 지우시겠습니까?</string>
+    <string name="delete_all">모든 운동 기록 삭제</string>
+    <string name="info">정보</string>
+    <string name="see_how_do">운동 훈련을 보려면 클릭</string>
+    <string name="tap_here">클릭하여 시작</string>
+    <string name="push_ups_tutorial">팔 굽혀 펴기 횟수를 세려면 그림과 같이 장치를 바닥에 놓고 운동을 시작하십시오.</string>
+    <string name="sit_ups_tutorial">윗몸 일으키기 수를 세려면 장치를 잡고 장치를 사용하여 운동하십시오 (장치를 수평으로 잡는 것이 좋습니다).</string>
+    <string name="squat_tutorial">스쿼트 수를 계산하려면 장치를 잡고 운동을하십시오.</string>
+    <string name="every_day">매일</string>
+    <string name="version">Version:</string>
+    <string name="libraries">Libraries</string>
+    <string name="airbnb_lottie">Airbnb lottie</string>
+    <string name="flaticon">Flaticon</string>
+    <string name="lottiefiles">lottiefiles</string>
+    <string name="icons">Icons</string>
+    <string name="feeback">피드백</string>
+
+
+    <string-array name="unitValues">
+        <item name="metric">1</item>
+        <item name="imperial">2</item>
+    </string-array>
+
+    <string-array name="units">
+        <item name="metric">미터법 단위 (m, km)</item>
+        <item name="imperial">영국식 단위 (ft, yd, 마일)</item>
+    </string-array>
+
+    <string name="later">나중</string>
+    <string name="message">이 앱 사용을 즐긴다면 잠시 시간을내어 평가 하시겠습니까? 당신의 지원에 감사드립니다.</string>
+    <string name="exit">출구</string>
+    <string name="no_thanks">아니! , 감사</string>
+    <string name="rate_now">지금 평가</string>
+    <string name="bubbleshowcase_android">BubbleShowCase-Android</string>
+    <string name="record">Record:</string>
+    <string name="cm">cm</string>
+    <string name="feet">feet</string>
+
+
+</resources>

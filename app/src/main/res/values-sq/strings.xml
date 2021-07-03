@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Merrni Fit</string>
+    <string name="push_ups">Push ups</string>
+
+    <string name="sleep_tracker_fragment">SleepTrackerFragment</string>
+
+
+    <string name="squats">Squats</string>
+    <string name="sit_ups">Sit ups</string>
+    <string name="plank">Plank</string>
+    <string name="start">fillim</string>
+
+
+    <!-- Output to TextView styled with a little HTML -->
+    <string name="title"><![CDATA[<h3>HERE IS YOUR FIT DATA</h3>]]></string>
+    <string name="start_time"><![CDATA[<b>Start:</b>]]></string>
+    <string name="end_time"><![CDATA[<b>End:</b>]]></string>
+    <string name="quality"><![CDATA[<b>Quality:</b>]]></string>
+    <string name="hours_slept"><![CDATA[<b>Hours:Minutes:Seconds</b>]]></string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="squat">Squat</string>
+    <string name="sit_up">Sit up</string>
+    <string name="push_up">Push up</string>
+    <string name="settings_title">Cilësimet</string>
+    <string name="Language_pref">Gjuhe</string>
+    <string name="select_language">zgjedh</string>
+    <string name="exercise_program">Programi i ushtrimeve</string>
+    <string name="test">provë</string>
+    <string name="level_test">Ndërtoni plane stërvitje</string>
+    <string name="history">histori</string>
+    <string name="home">shtëpi</string>
+    <string name="profile">Profile</string>
+    <string name="date_added_newest">Data e shtuar (më e reja)</string>
+    <string name="sort_by">Ndaj sipas</string>
+    <string name="date_added_oldest">Data e shtuar (më e vjetër)</string>
+    <string name="duration">kohëzgjatje</string>
+    <string name="calories">kalorive</string>
+    <string name="push_ups_free">Praktikë falas</string>
+    <string name="sit_ups_free">Praktikë falas</string>
+    <string name="squat_free">Praktikë falas</string>
+    <string name="Details">detalet</string>
+    <string name="gender">gjini</string>
+    <string name="done">Done</string>
+    <string name="cancel">anuloj</string>
+    <string name="weight">peshë</string>
+    <string name="height">lartësi</string>
+    <string name="age">moshë</string>
+    <string name="your_level">Niveli juaj</string>
+    <string name="total_push_ups">Programi ditor:</string>
+    <string name="total_free">Praktikë falas:</string>
+    <string name="total_sit_ups">Programi ditor:</string>
+    <string name="total_squat">Programi ditor:</string>
+    <string name="congratulation">urim</string>
+    <string name="workout">stërvitje</string>
+    <string name="about_you">Rreth jush</string>
+    <string name="male">mashkull</string>
+    <string name="female">femër</string>
+    <string name="free_practice">Praktikë e Lirë</string>
+    <string name="free_sit_ups">Praktikë e Lirë:</string>
+    <string name="theme_pref">temë</string>
+    <string name="dark_theme">Tema e errët</string>
+    <string name="cleared">pastruar!</string>
+    <string name="please_do">Ju lutemi bëni sa më shumë shtytje, ulje dhe mbledhje sa të jetë e mundur në një grup për të ndërtuar një program të përditshëm stërvitje bazuar në rezultatet.</string>
+    <string name="general">i përgjithshëm</string>
+    <string name="reminder">Reminder</string>
+    <string name="unit">njësi</string>
+    <string name="you_did_it_congratulation">Urime! Ju keni përfunduar ushtrimin tuaj sot.</string>
+    <string name="bmi">BMI</string>
+    <string name="tutorial">punë praktike</string>
+    <string name="ok">OK</string>
+    <string name="normal_bmi">Gama normale e BMI: 18.5–24.9</string>
+    <string name="underweight"><![CDATA[Gama e BMI nën peshë: <18.5]]></string>
+    <string name="overweight">Gama e BMI me mbipeshë: 25–29.9</string>
+    <string name="obesity">Gama e BMI e obezitetit: 30 ose më e madhe</string>
+    <string name="there_is_no">Asgjë për të parë këtu.</string>
+    <string name="clear_all">Pastroji të gjitha ?</string>
+    <string name="delete_all">Fshini të gjithë historinë e fitnesit</string>
+    <string name="info">Info</string>
+    <string name="see_how_do">Klikoni për të parë trajnimin e stërvitjes</string>
+    <string name="tap_here">Klikoni për të filluar</string>
+    <string name="push_ups_tutorial">Për të numëruar numrin e shtytjeve, ju lutemi vendosni pajisjen në tokë siç tregohet në figurë dhe më pas filloni ushtrimin.</string>
+    <string name="sit_ups_tutorial">Për të numëruar numrin e uljeve, ju lutemi mbajeni pajisjen dhe bëni ushtrimin me pajisjen tuaj (Më mirë ta mbani pajisjen në mënyrë horizontale).</string>
+    <string name="squat_tutorial">Për të numëruar numrin e mbledhjeve, ju lutemi mbajeni pajisjen dhe bëni ushtrimin me pajisjen tuaj.</string>
+    <string name="every_day">Do ditë në</string>
+    <string name="version">Version:</string>
+    <string name="libraries">Libraries</string>
+    <string name="airbnb_lottie">Airbnb lottie</string>
+    <string name="flaticon">Flaticon</string>
+    <string name="lottiefiles">lottiefiles</string>
+    <string name="icons">Icons</string>
+    <string name="feeback">reagim</string>
+
+
+    <string-array name="unitValues">
+        <item name="metric">1</item>
+        <item name="imperial">2</item>
+    </string-array>
+
+    <string-array name="units">
+        <item name="metric">Njësi metrike (m, km)</item>
+        <item name="imperial">Njësi perandorake (ft, y, milje)</item>
+    </string-array>
+
+    <string name="later">më vonë</string>
+    <string name="message">Nëse ju pëlqen të përdorni këtë aplikacion, do të mendoni se do të merrni një moment ta vlerësoni? Faleminderit per mbeshtetjen.</string>
+    <string name="exit">dalje</string>
+    <string name="no_thanks">Jo! , Faleminderit</string>
+    <string name="rate_now">Vlerësoni tani</string>
+    <string name="bubbleshowcase_android">BubbleShowCase-Android</string>
+    <string name="record">Record:</string>
+    <string name="cm">cm</string>
+    <string name="feet">feet</string>
+
+
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="fit"
+            type="com.panda.app.fitapp.database.FitHistory" />
+ 
+        <variable
+            name="clickListener"
+            type="com.panda.app.fitapp.history.FitHistoryListener" />
+ 
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/item_history"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/history_back"
+        android:layout_margin="8dp"
+        android:elevation="10dp"
+        android:onClick="@{() -> clickListener.onClick(fit)}"
+        android:longClickable="true">
+
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:indeterminate="false"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="16dp"
+            android:progressDrawable="@drawable/half_progress"
+            android:background="@drawable/circle_shape"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:max="100"
+            android:progress="50"
+            app:fitProgress="@{fit}"/>
+
+
+        <ImageView
+            android:id="@+id/check"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="16dp"
+            app:srcCompat="@drawable/ic_check"
+            android:visibility="gone"
+            app:fitImage="@{fit}"/>
+
+        <TextView
+            android:id="@+id/txt_prcent"
+            android:textColor="#34e89e"
+            tools:text="100%"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintRight_toRightOf="@+id/progressBar"
+            app:layout_constraintLeft_toLeftOf="@+id/progressBar"
+            app:layout_constraintTop_toTopOf="@+id/progressBar"
+            app:layout_constraintBottom_toBottomOf="@+id/progressBar"
+            app:fitPercents="@{fit}" />
+
+        <TextView
+            android:id="@+id/push_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/progressBar"
+            app:layout_constraintTop_toTopOf="@id/progressBar"
+            app:layout_constraintBottom_toBottomOf="@id/progressBar"
+            tools:text="Duration : 00:10:05"
+            android:layout_marginStart="16dp"
+            android:textSize="18sp"
+            android:textColor="@color/back_text"
+            app:fitDuration="@{fit}"
+            />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/progressBar"
+            app:layout_constraintBottom_toBottomOf="@id/progressBar"
+            tools:text="12/11/2019"
+            android:textSize="16sp"
+            android:layout_marginEnd="16dp"
+            app:fitDate="@{fit}"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
