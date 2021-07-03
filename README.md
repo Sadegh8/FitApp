@@ -11,4 +11,4 @@ In this project you'll find:
 *   A single-activity architecture, using the **[Navigation component](https://developer.android.com/guide/navigation/navigation-getting-started)** to manage fragment operations.
 *   A presentation layer that contains a fragment (View) and a **ViewModel** per screen (or feature).
 *   Reactive UIs using **LiveData** observables and **Data Binding**.
-*   A **data layer** with a repository and two data sources (local using Room and remote) that are queried with one-shot operations (no listeners or data streams).
+*   A database using Room 
