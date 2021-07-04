@@ -51,7 +51,7 @@
                     android:layout_marginStart="16dp"
                     android:layout_marginBottom="20dp"
                     android:text="@string/exercise_program"
-                    android:textColor="#000"
+                    android:textColor="#fff"
                     android:textSize="23sp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
