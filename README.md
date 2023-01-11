@@ -7,8 +7,8 @@ Exercise with your device"s sensors with Get fit - Abs Sit Ups(Six Pack) & Push-
 Easily save your calories, time, and the number of each set, and keep up with daily workouts and see your progress. Also, challenge yourself with free workout and break your own records!
 
 In this project you'll find:
-*   Kotlin **[Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html)** for background operations.
 *   A single-activity architecture, using the **[Navigation component](https://developer.android.com/guide/navigation/navigation-getting-started)** to manage fragment operations.
 *   A presentation layer that contains a fragment (View) and a **ViewModel** per screen.
 *   Reactive UIs using **LiveData** observables and **Data Binding**.
+*   Kotlin **[Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html)** for background operations.
 *   A database using Room 
